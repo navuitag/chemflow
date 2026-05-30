@@ -1,0 +1,1326 @@
+[
+  {
+    "id": "q_g6_b01_1",
+    "skill": "g6_b01",
+    "type": "multiple_choice",
+    "question": "Hóa học nghiên cứu chủ yếu điều gì?",
+    "choices": [
+      "Chất và sự biến đổi của chất",
+      "Chỉ chuyển động cơ",
+      "Chỉ tế bào",
+      "Chỉ hành tinh"
+    ],
+    "answer": "Chất và sự biến đổi của chất",
+    "hint": "Hóa học là một nhánh của KHTN."
+  },
+  {
+    "id": "q_g6_b01_2",
+    "skill": "g6_b01",
+    "type": "multiple_choice",
+    "question": "Khoa học tự nhiên gồm những lĩnh vực nào?",
+    "choices": [
+      "Vật lí, Hóa học, Sinh học",
+      "Chỉ Toán",
+      "Chỉ Văn",
+      "Chỉ Địa"
+    ],
+    "answer": "Vật lí, Hóa học, Sinh học",
+    "hint": "Ba lĩnh vực cốt lõi THCS."
+  },
+  {
+    "id": "q_g6_b02_1",
+    "skill": "g6_b02",
+    "type": "multiple_choice",
+    "question": "Khi làm thí nghiệm với axit, việc nào đúng?",
+    "choices": [
+      "Đổ axit chậm vào nước",
+      "Đổ nước vào axit đặc",
+      "Nếm thử dung dịch",
+      "Không đeo kính"
+    ],
+    "answer": "Đổ axit chậm vào nước",
+    "hint": "Tránh bắn axit."
+  },
+  {
+    "id": "q_g6_b02_2",
+    "skill": "g6_b02",
+    "type": "multiple_choice",
+    "question": "Phát hiện chất lạ bị đổ trong phòng lab, em nên:",
+    "choices": [
+      "Báo giáo viên ngay",
+      "Nếm thử",
+      "Đổ ra sàn",
+      "Trộn thử với axit"
+    ],
+    "answer": "Báo giáo viên ngay",
+    "hint": "An toàn là ưu tiên."
+  },
+  {
+    "id": "q_g6_b06_1",
+    "skill": "g6_b06",
+    "type": "multiple_choice",
+    "question": "Đơn vị nào thường dùng đo khối lượng nhỏ trong lab?",
+    "choices": [
+      "gam (g)",
+      "mét (m)",
+      "giây (s)",
+      "độ C"
+    ],
+    "answer": "gam (g)",
+    "hint": "g và kg là đơn vị khối lượng."
+  },
+  {
+    "id": "q_g6_b06_2",
+    "skill": "g6_b06",
+    "type": "input",
+    "question": "Cân được 250 g muối. Viết số (chỉ số, không đơn vị).",
+    "answer": "250",
+    "hint": "Đọc thước hoặc màn hình cân."
+  },
+  {
+    "id": "q_g6_b08_1",
+    "skill": "g6_b08",
+    "type": "multiple_choice",
+    "question": "Nước sôi ở áp suất thường khoảng bao nhiêu độ C?",
+    "choices": [
+      "100",
+      "0",
+      "37",
+      "50"
+    ],
+    "answer": "100",
+    "hint": "Điều kiện chuẩn trong SGK."
+  },
+  {
+    "id": "q_g6_b08_2",
+    "skill": "g6_b08",
+    "type": "multiple_choice",
+    "question": "Nhiệt độ làm băng tan thành nước lỏng (0°C) gọi là:",
+    "choices": [
+      "Nhiệt độ nóng chảy",
+      "Nhiệt độ sôi",
+      "Nhiệt độ sôi của muối",
+      "Nhiệt độ cháy"
+    ],
+    "answer": "Nhiệt độ nóng chảy",
+    "hint": "Chuyển rắn → lỏng."
+  },
+  {
+    "id": "q_g6_b09_1",
+    "skill": "g6_b09",
+    "type": "multiple_choice",
+    "question": "Nước biển thuộc loại nào?",
+    "choices": [
+      "Hỗn hợp",
+      "Chất tinh khiết",
+      "Nguyên tố",
+      "Hợp chất tinh khiết đơn"
+    ],
+    "answer": "Hỗn hợp",
+    "hint": "Có nhiều muối hòa tan."
+  },
+  {
+    "id": "q_g6_b09_2",
+    "skill": "g6_b09",
+    "type": "multiple_choice",
+    "question": "Muối ăn tinh khiết NaCl là:",
+    "choices": [
+      "Chất tinh khiết",
+      "Hỗn hợp",
+      "Không khí",
+      "Dung dịch"
+    ],
+    "answer": "Chất tinh khiết",
+    "hint": "Một loại chất duy nhất."
+  },
+  {
+    "id": "q_g6_b10_1",
+    "skill": "g6_b10",
+    "type": "multiple_choice",
+    "question": "Ở thể rắn, các hạt thường:",
+    "choices": [
+      "Sắp xếp chặt, rung tại vị trí",
+      "Xa nhau hoàn toàn",
+      "Không chuyển động",
+      "Bay tự do như khí"
+    ],
+    "answer": "Sắp xếp chặt, rung tại vị trí",
+    "hint": "Giữ hình dạng và thể tích."
+  },
+  {
+    "id": "q_g6_b10_2",
+    "skill": "g6_b10",
+    "type": "multiple_choice",
+    "question": "Nước đá tan thành nước lỏng là:",
+    "choices": [
+      "Nóng chảy",
+      "Hóa hơi",
+      "Ngưng tụ",
+      "Thăng hoa"
+    ],
+    "answer": "Nóng chảy",
+    "hint": "Rắn → lỏng."
+  },
+  {
+    "id": "q_g6_b11_1",
+    "skill": "g6_b11",
+    "type": "multiple_choice",
+    "question": "Không khí chứa khoảng bao nhiêu % thể tích oxy?",
+    "choices": [
+      "21",
+      "78",
+      "50",
+      "100"
+    ],
+    "answer": "21",
+    "hint": "Thành phần chính của không khí."
+  },
+  {
+    "id": "q_g6_b11_2",
+    "skill": "g6_b11",
+    "type": "multiple_choice",
+    "question": "Oxy có vai trò gì trong sự cháy?",
+    "choices": [
+      "Hỗ trợ sự cháy",
+      "Dập tắt mọi lửa",
+      "Làm chất rắn nguội",
+      "Thay thế nhiên liệu"
+    ],
+    "answer": "Hỗ trợ sự cháy",
+    "hint": "Tam giác cháy: oxy, nhiên liệu, nhiệt."
+  },
+  {
+    "id": "q_g6_b12_1",
+    "skill": "g6_b12",
+    "type": "multiple_choice",
+    "question": "Vật liệu nào thường dẫn điện tốt?",
+    "choices": [
+      "Đồng",
+      "Nhựa PVC",
+      "Gỗ khô",
+      "Thủy tinh"
+    ],
+    "answer": "Đồng",
+    "hint": "Kim loại dẫn điện."
+  },
+  {
+    "id": "q_g6_b12_2",
+    "skill": "g6_b12",
+    "type": "multiple_choice",
+    "question": "Polime (nhựa) thường có đặc điểm:",
+    "choices": [
+      "Cách điện, nhẹ",
+      "Rất nặng như sắt",
+      "Tan trong nước như đường",
+      "Dẫn điện như đồng"
+    ],
+    "answer": "Cách điện, nhẹ",
+    "hint": "Ứng dụng bao bì, ống."
+  },
+  {
+    "id": "q_g6_b13_1",
+    "skill": "g6_b13",
+    "type": "multiple_choice",
+    "question": "Quặng sắt là:",
+    "choices": [
+      "Nguyên liệu",
+      "Sản phẩm cuối",
+      "Dụng cụ đo",
+      "Chất xúc tác"
+    ],
+    "answer": "Nguyên liệu",
+    "hint": "Dùng luyện thép."
+  },
+  {
+    "id": "q_g6_b13_2",
+    "skill": "g6_b13",
+    "type": "multiple_choice",
+    "question": "Đường mía sau khi ép lấy nước cốt, phần còn lại có thể làm:",
+    "choices": [
+      "Nguyên liệu thức ăn gia súc",
+      "Oxy thở",
+      "Kim loại",
+      "Khí noble"
+    ],
+    "answer": "Nguyên liệu thức ăn gia súc",
+    "hint": "Tận dụng phụ phẩm."
+  },
+  {
+    "id": "q_g6_b14_1",
+    "skill": "g6_b14",
+    "type": "multiple_choice",
+    "question": "Than đá, dầu mỏ thuộc nhóm:",
+    "choices": [
+      "Nhiên liệu hóa thạch",
+      "Kim loại",
+      "Axit",
+      "Muối ăn"
+    ],
+    "answer": "Nhiên liệu hóa thạch",
+    "hint": "Chứa năng lượng hóa học."
+  },
+  {
+    "id": "q_g6_b14_2",
+    "skill": "g6_b14",
+    "type": "multiple_choice",
+    "question": "Khí metan (CH₄) cháy tạo ra chủ yếu:",
+    "choices": [
+      "CO₂ và H₂O",
+      "Chỉ muối",
+      "Chỉ sắt",
+      "Oxy"
+    ],
+    "answer": "CO₂ và H₂O",
+    "hint": "Phản ứng cháy hoàn toàn đơn giản."
+  },
+  {
+    "id": "q_g6_b15_1",
+    "skill": "g6_b15",
+    "type": "multiple_choice",
+    "question": "Gạo tẩm chứa nhiều chất dinh dưỡng nào?",
+    "choices": [
+      "Tinh bột",
+      "Protein như thịt",
+      "Kim loại",
+      "Oxy khí"
+    ],
+    "answer": "Tinh bột",
+    "hint": "Carbohydrate chính."
+  },
+  {
+    "id": "q_g6_b15_2",
+    "skill": "g6_b15",
+    "type": "multiple_choice",
+    "question": "Trứng gà giàu nhất về:",
+    "choices": [
+      "Protein",
+      "Than đá",
+      "Khí hiđro",
+      "Muối tinh khiết"
+    ],
+    "answer": "Protein",
+    "hint": "Cần cho cơ thể."
+  },
+  {
+    "id": "q_g6_b16_1",
+    "skill": "g6_b16",
+    "type": "multiple_choice",
+    "question": "Nước muối loãng là hỗn hợp:",
+    "choices": [
+      "Đồng nhất",
+      "Không đồng nhất",
+      "Nguyên tố",
+      "Chỉ một chất rắn"
+    ],
+    "answer": "Đồng nhất",
+    "hint": "Nhìn một pha."
+  },
+  {
+    "id": "q_g6_b16_2",
+    "skill": "g6_b16",
+    "type": "multiple_choice",
+    "question": "Hỗn hợp cát và nước là:",
+    "choices": [
+      "Không đồng nhất",
+      "Đồng nhất",
+      "Chất tinh khiết",
+      "Nguyên tử"
+    ],
+    "answer": "Không đồng nhất",
+    "hint": "Hai pha rõ ràng."
+  },
+  {
+    "id": "q_g6_b17_1",
+    "skill": "g6_b17",
+    "type": "multiple_choice",
+    "question": "Tách cát khỏi nước dùng phương pháp:",
+    "choices": [
+      "Lọc",
+      "Chưng cất",
+      "Thăng hoa iodine",
+      "Lên men"
+    ],
+    "answer": "Lọc",
+    "hint": "Hạt rắn không lọt qua giấy lọc."
+  },
+  {
+    "id": "q_g6_b17_2",
+    "skill": "g6_b17",
+    "type": "multiple_choice",
+    "question": "Tách muối từ nước biển thường dùng:",
+    "choices": [
+      "Cô / để bốc hơi nước",
+      "Lọc giấy",
+      "Hút nam châm",
+      "Quay ly tâm protein"
+    ],
+    "answer": "Cô / để bốc hơi nước",
+    "hint": "Muối không bay hơi ở nhiệt độ sôi nước."
+  },
+  {
+    "id": "q_g7_b01_1",
+    "skill": "g7_b01",
+    "type": "multiple_choice",
+    "question": "Bước đúng trong phương pháp khoa học?",
+    "choices": [
+      "Thí nghiệm kiểm tra giả thuyết",
+      "Kết luận trước khi quan sát",
+      "Bỏ qua số liệu",
+      "Không ghi chép"
+    ],
+    "answer": "Thí nghiệm kiểm tra giả thuyết",
+    "hint": "Khoa học cần bằng chứng."
+  },
+  {
+    "id": "q_g7_b01_2",
+    "skill": "g7_b01",
+    "type": "multiple_choice",
+    "question": "Khi học Hóa trong KHTN, em nên:",
+    "choices": [
+      "Quan sát và mô hình hóa chất",
+      "Chỉ học thuộc không thí nghiệm",
+      "Nhầm Hóa với Vật lí",
+      "Bỏ qua an toàn lab"
+    ],
+    "answer": "Quan sát và mô hình hóa chất",
+    "hint": "Hóa nghiên cứu chất và biến đổi."
+  },
+  {
+    "id": "q_g7_b02_1",
+    "skill": "g7_b02",
+    "type": "multiple_choice",
+    "question": "Hạt mang điện tích dương trong nguyên tử là:",
+    "choices": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Ion"
+    ],
+    "answer": "Proton",
+    "hint": "Proton ở hạt nhân."
+  },
+  {
+    "id": "q_g7_b02_2",
+    "skill": "g7_b02",
+    "type": "input",
+    "question": "Nguyên tử cacbon có Z = 6. Số proton bằng?",
+    "answer": "6",
+    "hint": "Z = số proton."
+  },
+  {
+    "id": "q_g7_b03_1",
+    "skill": "g7_b03",
+    "type": "multiple_choice",
+    "question": "Nguyên tố hóa học là tập hợp các nguyên tử có:",
+    "choices": [
+      "Cùng số proton",
+      "Cùng khối lượng",
+      "Cùng số neutron",
+      "Cùng số electron ion"
+    ],
+    "answer": "Cùng số proton",
+    "hint": "Định nghĩa theo Z."
+  },
+  {
+    "id": "q_g7_b03_2",
+    "skill": "g7_b03",
+    "type": "multiple_choice",
+    "question": "Đồng vị là các nguyên tử cùng nguyên tố nhưng khác:",
+    "choices": [
+      "Số neutron",
+      "Số proton",
+      "Số electron hạt nhân",
+      "Kí hiệu"
+    ],
+    "answer": "Số neutron",
+    "hint": "Cùng Z, khác n."
+  },
+  {
+    "id": "q_g7_b04_1",
+    "skill": "g7_b04",
+    "type": "multiple_choice",
+    "question": "Trong bảng tuần hoàn, các nguyên tố cùng nhóm có:",
+    "choices": [
+      "Số electron lớp ngoài giống nhau",
+      "Khối lượng giống hệt",
+      "Cùng số proton",
+      "Không liên quan"
+    ],
+    "answer": "Số electron lớp ngoài giống nhau",
+    "hint": "Nhóm = cột."
+  },
+  {
+    "id": "q_g7_b04_2",
+    "skill": "g7_b04",
+    "type": "multiple_choice",
+    "question": "Nguyên tố ở chu kì 3, nhóm I A (Na) có bao nhiêu electron lớp ngoài?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ],
+    "answer": "1",
+    "hint": "Cấu hình 2-8-1."
+  },
+  {
+    "id": "q_g7_b05_1",
+    "skill": "g7_b05",
+    "type": "multiple_choice",
+    "question": "O₂ (khí oxy) là:",
+    "choices": [
+      "Đơn chất",
+      "Hợp chất",
+      "Hỗn hợp",
+      "Ion"
+    ],
+    "answer": "Đơn chất",
+    "hint": "Chỉ một nguyên tố O."
+  },
+  {
+    "id": "q_g7_b05_2",
+    "skill": "g7_b05",
+    "type": "multiple_choice",
+    "question": "H₂O thuộc loại:",
+    "choices": [
+      "Hợp chất",
+      "Đơn chất",
+      "Nguyên tố",
+      "Hỗn hợp không đồng nhất"
+    ],
+    "answer": "Hợp chất",
+    "hint": "Gồm H và O."
+  },
+  {
+    "id": "q_g7_b06_1",
+    "skill": "g7_b06",
+    "type": "multiple_choice",
+    "question": "NaCl hình thành nhờ liên kết:",
+    "choices": [
+      "Ion",
+      "Cộng hóa trị thuần",
+      "Kim loại",
+      "Không có liên kết"
+    ],
+    "answer": "Ion",
+    "hint": "Na⁺ và Cl⁻."
+  },
+  {
+    "id": "q_g7_b06_2",
+    "skill": "g7_b06",
+    "type": "multiple_choice",
+    "question": "Phân tử H₂O có liên kết chủ yếu:",
+    "choices": [
+      "Cộng hóa trị",
+      "Ion",
+      "Kim loại",
+      "Hiđro giữa phân tử"
+    ],
+    "answer": "Cộng hóa trị",
+    "hint": "O và H dùng chung electron."
+  },
+  {
+    "id": "q_g7_b07_1",
+    "skill": "g7_b07",
+    "type": "multiple_choice",
+    "question": "Trong Al₂O₃, hóa trị của nhôm là:",
+    "choices": [
+      "III",
+      "II",
+      "I",
+      "VI"
+    ],
+    "answer": "III",
+    "hint": "Al mất 3 electron."
+  },
+  {
+    "id": "q_g7_b07_2",
+    "skill": "g7_b07",
+    "type": "input",
+    "question": "Hóa trị của oxi trong hợp chất thường là bao nhiêu? (số La Mã hoặc số)",
+    "answer": "2",
+    "hint": "O thường hóa trị II."
+  },
+  {
+    "id": "q_g8_b02_1",
+    "skill": "g8_b02",
+    "type": "multiple_choice",
+    "question": "Phản ứng 2H₂ + O₂ → 2H₂O thuộc loại:",
+    "choices": [
+      "Hóa hợp",
+      "Phân hủy",
+      "Thế",
+      "Trái đổi ion"
+    ],
+    "answer": "Hóa hợp",
+    "hint": "Nhiều chất tạo một sản phẩm."
+  },
+  {
+    "id": "q_g8_b02_2",
+    "skill": "g8_b02",
+    "type": "multiple_choice",
+    "question": "Trong PTHH, hệ số đặt trước chất để:",
+    "choices": [
+      "Cân nguyên tử các nguyên tố",
+      "Tăng khối lượng",
+      "Đổi tên chất",
+      "Tạo xúc tác"
+    ],
+    "answer": "Cân nguyên tử các nguyên tố",
+    "hint": "Bảo toàn nguyên tử."
+  },
+  {
+    "id": "q_g8_b03_1",
+    "skill": "g8_b03",
+    "type": "multiple_choice",
+    "question": "Khối lượng mol của H₂O (H=1, O=16) gần bằng:",
+    "choices": [
+      "18 g/mol",
+      "16 g/mol",
+      "2 g/mol",
+      "32 g/mol"
+    ],
+    "answer": "18 g/mol",
+    "hint": "M = 1·2 + 16."
+  },
+  {
+    "id": "q_g8_b03_2",
+    "skill": "g8_b03",
+    "type": "input",
+    "question": "18 g H₂O tương ứng bao nhiêu mol? (số thập phân, dùng dấu chấm)",
+    "answer": "1",
+    "hint": "n = m/M = 18/18."
+  },
+  {
+    "id": "q_g8_b04_1",
+    "skill": "g8_b04",
+    "type": "multiple_choice",
+    "question": "Dung dịch 10% NaCl nghĩa là:",
+    "choices": [
+      "10 g NaCl trong 100 g dung dịch",
+      "10 g nước",
+      "10 mol NaCl",
+      "10% thể tích nước"
+    ],
+    "answer": "10 g NaCl trong 100 g dung dịch",
+    "hint": "C% theo khối lượng."
+  },
+  {
+    "id": "q_g8_b04_2",
+    "skill": "g8_b04",
+    "type": "multiple_choice",
+    "question": "Chất tan trong dung dịch muối loãng là:",
+    "choices": [
+      "NaCl",
+      "Nước",
+      "Không khí",
+      "Cát"
+    ],
+    "answer": "NaCl",
+    "hint": "Nước là dung môi."
+  },
+  {
+    "id": "q_g8_b05_1",
+    "skill": "g8_b05",
+    "type": "multiple_choice",
+    "question": "Định luật bảo toàn khối lượng phát biểu:",
+    "choices": [
+      "Khối lượng bảo toàn trong PƯ kín",
+      "Khối lượng tăng mãi",
+      "Chỉ bảo toàn thể tích",
+      "Không áp dụng cho khí"
+    ],
+    "answer": "Khối lượng bảo toàn trong PƯ kín",
+    "hint": "Tổng KL reactant = product."
+  },
+  {
+    "id": "q_g8_b05_2",
+    "skill": "g8_b05",
+    "type": "input",
+    "question": "Hệ số trước H₂O khi cân: H₂ + O₂ → ?H₂O là?",
+    "answer": "2",
+    "hint": "Cân O: 2H₂ + O₂ → 2H₂O."
+  },
+  {
+    "id": "q_g8_b06_1",
+    "skill": "g8_b06",
+    "type": "multiple_choice",
+    "question": "Theo 2H₂ + O₂ → 2H₂O, 4 mol H₂ cần bao nhiêu mol O₂?",
+    "choices": [
+      "2",
+      "4",
+      "1",
+      "8"
+    ],
+    "answer": "2",
+    "hint": "Tỉ 2 : 1 : 2."
+  },
+  {
+    "id": "q_g8_b06_2",
+    "skill": "g8_b06",
+    "type": "input",
+    "question": "1 mol H₂ (M=2) có khối lượng bao nhiêu gam?",
+    "answer": "2",
+    "hint": "m = n·M."
+  },
+  {
+    "id": "q_g8_b07_1",
+    "skill": "g8_b07",
+    "type": "multiple_choice",
+    "question": "Yếu tố nào thường làm tăng tốc độ phản ứng?",
+    "choices": [
+      "Tăng nhiệt độ",
+      "Giảm nồng độ",
+      "Loại bỏ xúc tác",
+      "Làm lạnh mạnh"
+    ],
+    "answer": "Tăng nhiệt độ",
+    "hint": "Hạt va chạm hiệu quả hơn."
+  },
+  {
+    "id": "q_g8_b07_2",
+    "skill": "g8_b07",
+    "type": "multiple_choice",
+    "question": "Chất xúc tác khi tham gia phản ứng:",
+    "choices": [
+      "Tăng tốc, hầu như không tiêu hao",
+      "Bị mất hết",
+      "Làm chậm",
+      "Thay sản phẩm"
+    ],
+    "answer": "Tăng tốc, hầu như không tiêu hao",
+    "hint": "MnO₂ với H₂O₂."
+  },
+  {
+    "id": "q_g8_b08_1",
+    "skill": "g8_b08",
+    "type": "multiple_choice",
+    "question": "Dung dịch axit có pH thường:",
+    "choices": [
+      "< 7",
+      "> 7",
+      "= 14",
+      "= 0 luôn"
+    ],
+    "answer": "< 7",
+    "hint": "Thang pH."
+  },
+  {
+    "id": "q_g8_b08_2",
+    "skill": "g8_b08",
+    "type": "multiple_choice",
+    "question": "Axit HCl trong nước tạo ion:",
+    "choices": [
+      "H+",
+      "OH-",
+      "Na+",
+      "Cl2"
+    ],
+    "answer": "H+",
+    "hint": "Định nghĩa Arrhenius."
+  },
+  {
+    "id": "q_g8_b09_1",
+    "skill": "g8_b09",
+    "type": "multiple_choice",
+    "question": "Dung dịch NaOH thuộc loại:",
+    "choices": [
+      "Bazơ",
+      "Axit",
+      "Muối",
+      "Oxide"
+    ],
+    "answer": "Bazơ",
+    "hint": "Tạo OH⁻."
+  },
+  {
+    "id": "q_g8_b09_2",
+    "skill": "g8_b09",
+    "type": "multiple_choice",
+    "question": "Phản ứng trung hòa HCl + NaOH tạo:",
+    "choices": [
+      "NaCl và H2O",
+      "Chỉ H2",
+      "Chỉ O2",
+      "Không phản ứng"
+    ],
+    "answer": "NaCl và H2O",
+    "hint": "Axit + bazơ → muối + nước."
+  },
+  {
+    "id": "q_g8_b10_1",
+    "skill": "g8_b10",
+    "type": "multiple_choice",
+    "question": "CO₂ là oxide loại:",
+    "choices": [
+      "Axit",
+      "Bazơ",
+      "Trung tính",
+      "Kim loại"
+    ],
+    "answer": "Axit",
+    "hint": "CO₂ + H₂O → axit yếu."
+  },
+  {
+    "id": "q_g8_b10_2",
+    "skill": "g8_b10",
+    "type": "multiple_choice",
+    "question": "CaO (vôi sống) + H₂O tạo:",
+    "choices": [
+      "Ca(OH)2",
+      "HCl",
+      "CO2",
+      "NaCl"
+    ],
+    "answer": "Ca(OH)2",
+    "hint": "Oxide bazơ."
+  },
+  {
+    "id": "q_g8_b11_1",
+    "skill": "g8_b11",
+    "type": "multiple_choice",
+    "question": "NaCl thuộc nhóm chất:",
+    "choices": [
+      "Muối",
+      "Axit",
+      "Bazơ",
+      "Oxide axit"
+    ],
+    "answer": "Muối",
+    "hint": "Hợp chất ion."
+  },
+  {
+    "id": "q_g8_b11_2",
+    "skill": "g8_b11",
+    "type": "multiple_choice",
+    "question": "Phản ứng axit + bazơ tạo ra:",
+    "choices": [
+      "Muối và nước",
+      "Chỉ khí O2",
+      "Chỉ kim loại",
+      "Không sản phẩm"
+    ],
+    "answer": "Muối và nước",
+    "hint": "Trung hòa."
+  },
+  {
+    "id": "q_g8_b12_1",
+    "skill": "g8_b12",
+    "type": "multiple_choice",
+    "question": "Ký hiệu N trong NPK chỉ:",
+    "choices": [
+      "Đạm (nitơ)",
+      "Lân",
+      "Kali",
+      "Nước"
+    ],
+    "answer": "Đạm (nitơ)",
+    "hint": "Nuôi lá, sinh trưởng."
+  },
+  {
+    "id": "q_g8_b12_2",
+    "skill": "g8_b12",
+    "type": "multiple_choice",
+    "question": "Bón phân quá mức có thể gây:",
+    "choices": [
+      "Ô nhiễm nước",
+      "Tăng oxy vô hạn",
+      "Không ảnh hưởng",
+      "Chỉ tăng pH = 14"
+    ],
+    "answer": "Ô nhiễm nước",
+    "hint": "Bảo vệ môi trường."
+  },
+  {
+    "id": "q_g9_b18_1",
+    "skill": "g9_b18",
+    "type": "multiple_choice",
+    "question": "Tính chất đặc trưng của kim loại?",
+    "choices": [
+      "Dẫn điện tốt",
+      "Cách điện hoàn toàn",
+      "Không có ánh kim",
+      "Tan trong nước như đường"
+    ],
+    "answer": "Dẫn điện tốt",
+    "hint": "Kim loại dẫn điện."
+  },
+  {
+    "id": "q_g9_b18_2",
+    "skill": "g9_b18",
+    "type": "multiple_choice",
+    "question": "Kim loại nào thường dùng làm dây điện?",
+    "choices": [
+      "Đồng",
+      "Than",
+      "Nhựa",
+      "Thủy tinh"
+    ],
+    "answer": "Đồng",
+    "hint": "Cu dẫn điện tốt."
+  },
+  {
+    "id": "q_g9_b19_1",
+    "skill": "g9_b19",
+    "type": "multiple_choice",
+    "question": "Trong dãy hoạt động, Zn đặt trước Cu nghĩa là:",
+    "choices": [
+      "Zn mất electron dễ hơn Cu",
+      "Cu mạnh hơn Zn",
+      "Không phản ứng",
+      "Bằng nhau"
+    ],
+    "answer": "Zn mất electron dễ hơn Cu",
+    "hint": "Zn thế Cu trong muối."
+  },
+  {
+    "id": "q_g9_b19_2",
+    "skill": "g9_b19",
+    "type": "multiple_choice",
+    "question": "Zn + CuSO₄ tạo ra:",
+    "choices": [
+      "ZnSO₄ + Cu",
+      "CuSO₄ + ZnO",
+      "Không phản ứng",
+      "Chỉ H2"
+    ],
+    "answer": "ZnSO₄ + Cu",
+    "hint": "Phản ứng thế."
+  },
+  {
+    "id": "q_g9_b20_1",
+    "skill": "g9_b20",
+    "type": "multiple_choice",
+    "question": "Thép là hợp kim chủ yếu của:",
+    "choices": [
+      "Fe và C",
+      "Cu và Zn",
+      "Na và Cl",
+      "Chỉ C"
+    ],
+    "answer": "Fe và C",
+    "hint": "Hợp kim sắt-cacbon."
+  },
+  {
+    "id": "q_g9_b20_2",
+    "skill": "g9_b20",
+    "type": "multiple_choice",
+    "question": "Hợp kim khác kim loại thuần ở chỗ:",
+    "choices": [
+      "Tính chất có thể tối ưu hơn",
+      "Luôn nhẹ hơn nước",
+      "Không dẫn điện",
+      "Không dùng được"
+    ],
+    "answer": "Tính chất có thể tối ưu hơn",
+    "hint": "Ứng dụng đa dạng."
+  },
+  {
+    "id": "q_g9_b21_1",
+    "skill": "g9_b21",
+    "type": "multiple_choice",
+    "question": "Chất nào là phi kim?",
+    "choices": [
+      "Lưu huỳnh S",
+      "Đồng Cu",
+      "Nhôm Al",
+      "Sắt Fe"
+    ],
+    "answer": "Lưu huỳnh S",
+    "hint": "S không phải kim loại."
+  },
+  {
+    "id": "q_g9_b21_2",
+    "skill": "g9_b21",
+    "type": "multiple_choice",
+    "question": "Than mỏ chủ yếu là nguyên tố:",
+    "choices": [
+      "Cacbon",
+      "Sắt",
+      "Vàng",
+      "Natri"
+    ],
+    "answer": "Cacbon",
+    "hint": "Phi kim C."
+  },
+  {
+    "id": "q_g9_b22_1",
+    "skill": "g9_b22",
+    "type": "multiple_choice",
+    "question": "Hợp chất hữu cơ phải có:",
+    "choices": [
+      "Cacbon",
+      "Chỉ oxi",
+      "Chỉ natri",
+      "Không có H"
+    ],
+    "answer": "Cacbon",
+    "hint": "Định nghĩa cơ bản."
+  },
+  {
+    "id": "q_g9_b22_2",
+    "skill": "g9_b22",
+    "type": "input",
+    "question": "Công thức metan là gì?",
+    "answer": "CH4",
+    "hint": "Ankan đơn giản nhất."
+  },
+  {
+    "id": "q_g9_b23_1",
+    "skill": "g9_b23",
+    "type": "multiple_choice",
+    "question": "Công thức tổng quát ankan no?",
+    "choices": [
+      "CnH2n+2",
+      "CnH2n",
+      "CnH2n-2",
+      "H2O"
+    ],
+    "answer": "CnH2n+2",
+    "hint": "Nhớ ankan."
+  },
+  {
+    "id": "q_g9_b23_2",
+    "skill": "g9_b23",
+    "type": "multiple_choice",
+    "question": "Phản ứng cháy metan tạo:",
+    "choices": [
+      "CO2 và H2O",
+      "Chỉ O2",
+      "NaCl",
+      "Fe"
+    ],
+    "answer": "CO2 và H2O",
+    "hint": "CH4 + 2O2 → CO2 + 2H2O."
+  },
+  {
+    "id": "q_g9_b24_1",
+    "skill": "g9_b24",
+    "type": "multiple_choice",
+    "question": "Alkene có đặc điểm:",
+    "choices": [
+      "Liên kết đôi C=C",
+      "Chỉ liên kết đơn",
+      "Không có C",
+      "Là muối"
+    ],
+    "answer": "Liên kết đôi C=C",
+    "hint": "Anken."
+  },
+  {
+    "id": "q_g9_b24_2",
+    "skill": "g9_b24",
+    "type": "input",
+    "question": "Công thức etilen (C2H4) viết dạng không chỉ số dưới?",
+    "answer": "C2H4",
+    "hint": "Hoặc CH2=CH2 nhưng answer C2H4"
+  },
+  {
+    "id": "q_g9_b25_1",
+    "skill": "g9_b25",
+    "type": "multiple_choice",
+    "question": "Nhiên liệu hóa thạch gồm:",
+    "choices": [
+      "Than, dầu mỏ, khí",
+      "Chỉ nước",
+      "Muối ăn",
+      "Oxy khí"
+    ],
+    "answer": "Than, dầu mỏ, khí",
+    "hint": "Hydrocarbon."
+  },
+  {
+    "id": "q_g9_b25_2",
+    "skill": "g9_b25",
+    "type": "multiple_choice",
+    "question": "Đốt nhiên liệu chủ yếu tạo:",
+    "choices": [
+      "CO2 và H2O",
+      "Chỉ muối",
+      "Chỉ sắt",
+      "Không sản phẩm"
+    ],
+    "answer": "CO2 và H2O",
+    "hint": "Phản ứng cháy."
+  },
+  {
+    "id": "q_g9_b26_1",
+    "skill": "g9_b26",
+    "type": "multiple_choice",
+    "question": "Công thức ethylic alcohol là:",
+    "choices": [
+      "C2H5OH",
+      "CH3COOH",
+      "NaCl",
+      "H2SO4"
+    ],
+    "answer": "C2H5OH",
+    "hint": "Cồn y tế."
+  },
+  {
+    "id": "q_g9_b26_2",
+    "skill": "g9_b26",
+    "type": "multiple_choice",
+    "question": "Cồn cháy được vì:",
+    "choices": [
+      "Là hợp chất hữu cơ",
+      "Là kim loại",
+      "Là muối",
+      "Không cháy"
+    ],
+    "answer": "Là hợp chất hữu cơ",
+    "hint": "Phản ứng cháy."
+  },
+  {
+    "id": "q_g9_b27_1",
+    "skill": "g9_b27",
+    "type": "multiple_choice",
+    "question": "Giấm chứa axit:",
+    "choices": [
+      "CH3COOH",
+      "HCl",
+      "NaOH",
+      "CaCO3"
+    ],
+    "answer": "CH3COOH",
+    "hint": "Axit axetic."
+  },
+  {
+    "id": "q_g9_b27_2",
+    "skill": "g9_b27",
+    "type": "multiple_choice",
+    "question": "Axit axetic loãng:",
+    "choices": [
+      "Axit yếu",
+      "Axit mạnh như HCl đặc",
+      "Là bazơ",
+      "Là muối"
+    ],
+    "answer": "Axit yếu",
+    "hint": "Có thể dùng trong thực phẩm."
+  },
+  {
+    "id": "q_g9_b28_1",
+    "skill": "g9_b28",
+    "type": "multiple_choice",
+    "question": "Lipid trong cơ thể dùng để:",
+    "choices": [
+      "Dự trữ năng lượng",
+      "Dẫn điện",
+      "Làm gốm",
+      "Tạo O2"
+    ],
+    "answer": "Dự trữ năng lượng",
+    "hint": "Chất béo."
+  },
+  {
+    "id": "q_g9_b28_2",
+    "skill": "g9_b28",
+    "type": "multiple_choice",
+    "question": "Dầu ăn thuộc nhóm:",
+    "choices": [
+      "Lipid",
+      "Protein",
+      "Kim loại",
+      "Oxide"
+    ],
+    "answer": "Lipid",
+    "hint": "Một loại lipid."
+  },
+  {
+    "id": "q_g9_b29_1",
+    "skill": "g9_b29",
+    "type": "multiple_choice",
+    "question": "Công thức glucose?",
+    "choices": [
+      "C6H12O6",
+      "CH4",
+      "NaCl",
+      "H2O"
+    ],
+    "answer": "C6H12O6",
+    "hint": "Đường đơn."
+  },
+  {
+    "id": "q_g9_b29_2",
+    "skill": "g9_b29",
+    "type": "multiple_choice",
+    "question": "Saccharose (đường ăn) là:",
+    "choices": [
+      "C12H22O11",
+      "CH4",
+      "Fe",
+      "O2"
+    ],
+    "answer": "C12H22O11",
+    "hint": "Đường đôi."
+  },
+  {
+    "id": "q_g9_b30_1",
+    "skill": "g9_b30",
+    "type": "multiple_choice",
+    "question": "Tinh bột thuộc:",
+    "choices": [
+      "Carbohydrate (polime)",
+      "Kim loại",
+      "Axit mạnh",
+      "Khí hiếm"
+    ],
+    "answer": "Carbohydrate (polime)",
+    "hint": "Polime lớn."
+  },
+  {
+    "id": "q_g9_b30_2",
+    "skill": "g9_b30",
+    "type": "multiple_choice",
+    "question": "Xenluloz có trong:",
+    "choices": [
+      "Gỗ, cotton",
+      "Chỉ sắt",
+      "Dầu mỏ",
+      "Muối"
+    ],
+    "answer": "Gỗ, cotton",
+    "hint": "Polime carbohydrate."
+  },
+  {
+    "id": "q_g9_b31_1",
+    "skill": "g9_b31",
+    "type": "multiple_choice",
+    "question": "Protein được tạo từ:",
+    "choices": [
+      "Amino acid",
+      "Chỉ glucose",
+      "Chỉ NaCl",
+      "Oxy"
+    ],
+    "answer": "Amino acid",
+    "hint": "Monomer protein."
+  },
+  {
+    "id": "q_g9_b31_2",
+    "skill": "g9_b31",
+    "type": "multiple_choice",
+    "question": "Enzyme trong cơ thể là:",
+    "choices": [
+      "Protein",
+      "Kim loại",
+      "Muối",
+      "Oxide"
+    ],
+    "answer": "Protein",
+    "hint": "Xúc tác sinh học."
+  },
+  {
+    "id": "q_g9_b32_1",
+    "skill": "g9_b32",
+    "type": "multiple_choice",
+    "question": "PVC, PE là:",
+    "choices": [
+      "Polymer",
+      "Kim loại",
+      "Axit",
+      "Muối"
+    ],
+    "answer": "Polymer",
+    "hint": "Nhựa tổng hợp."
+  },
+  {
+    "id": "q_g9_b32_2",
+    "skill": "g9_b32",
+    "type": "multiple_choice",
+    "question": "Tái chế nhựa giúp:",
+    "choices": [
+      "Giảm rác và tiết kiệm tài nguyên",
+      "Tăng CO2 vô hạn",
+      "Không có lợi",
+      "Biến nhựa thành kim loại"
+    ],
+    "answer": "Giảm rác và tiết kiệm tài nguyên",
+    "hint": "Bảo vệ môi trường."
+  },
+  {
+    "id": "q_g9_b33_1",
+    "skill": "g9_b33",
+    "type": "multiple_choice",
+    "question": "Vỏ Trái Đất chứa nhiều:",
+    "choices": [
+      "Silicate và oxide",
+      "Chỉ vàng nguyên chất",
+      "Chỉ khí hiếu",
+      "Muối ăn"
+    ],
+    "answer": "Silicate và oxide",
+    "hint": "Khoáng sản."
+  },
+  {
+    "id": "q_g9_b33_2",
+    "skill": "g9_b33",
+    "type": "multiple_choice",
+    "question": "Bauxit là quặng của:",
+    "choices": [
+      "Nhôm",
+      "Sắt",
+      "Vàng",
+      "Natri"
+    ],
+    "answer": "Nhôm",
+    "hint": "Khai thác Al."
+  },
+  {
+    "id": "q_g9_b34_1",
+    "skill": "g9_b34",
+    "type": "multiple_choice",
+    "question": "Đá vôi chủ yếu là:",
+    "choices": [
+      "CaCO3",
+      "NaCl",
+      "CH4",
+      "O2"
+    ],
+    "answer": "CaCO3",
+    "hint": "Canxi cacbonat."
+  },
+  {
+    "id": "q_g9_b34_2",
+    "skill": "g9_b34",
+    "type": "multiple_choice",
+    "question": "Xi măng liên quan nung:",
+    "choices": [
+      "CaCO3",
+      "Muối",
+      "Khí noble",
+      "Glucose"
+    ],
+    "answer": "CaCO3",
+    "hint": "Sản xuất vôi."
+  },
+  {
+    "id": "q_g9_b35_1",
+    "skill": "g9_b35",
+    "type": "multiple_choice",
+    "question": "Chu trình carbon liên quan:",
+    "choices": [
+      "CO2 – thực vật – nhiên liệu",
+      "Chỉ NaCl",
+      "Chỉ sắt",
+      "Không có CO2"
+    ],
+    "answer": "CO2 – thực vật – nhiên liệu",
+    "hint": "Vòng carbon."
+  },
+  {
+    "id": "q_g9_b35_2",
+    "skill": "g9_b35",
+    "type": "multiple_choice",
+    "question": "Đốt nhiên liệu hóa thạch tăng:",
+    "choices": [
+      "CO2 khí quyển",
+      "Oxy trong không khí lên 100%",
+      "Không ảnh hưởng",
+      "Giảm nhiệt độ Trái Đất"
+    ],
+    "answer": "CO2 khí quyển",
+    "hint": "Hiệu ứng nhà kính."
+  }
+]

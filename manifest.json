@@ -1,0 +1,10 @@
+{
+  "name": "ChemFlow VN",
+  "short_name": "ChemFlow",
+  "description": "Ứng dụng học Hóa THCS theo micro-learning, trực quan hóa và phân tích lỗi sai.",
+  "start_url": "./index.html#/home",
+  "display": "standalone",
+  "background_color": "#f7fbff",
+  "theme_color": "#20a36b",
+  "icons": []
+}

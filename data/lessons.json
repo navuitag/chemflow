@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "g6_b01",
+    "title": "Bài 1. Giới thiệu về Khoa học tự nhiên",
+    "skill": "g6_b01",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nhận biết ba lĩnh vực KHTN và vai trò Hóa học trong đời sống."
+      },
+      {
+        "type": "visualization",
+        "title": "Ba lĩnh vực KHTN",
+        "content": "Vật lí, Sinh học, Hóa học cùng dùng quan sát, thí nghiệm và mô hình.",
+        "visualization": "khtn"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nghiên cứu quá trình lên men sữa chua thuộc Sinh học và Hóa học."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Hóa học tập trung vào chất và sự biến đổi của chất."
+      }
+    ]
+  },
+  {
+    "id": "g6_b02",
+    "title": "Bài 2. An toàn trong phòng thực hành",
+    "skill": "g6_b02",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Tuân thủ quy tắc an toàn khi làm thí nghiệm Hóa – Sinh – Vật lí."
+      },
+      {
+        "type": "visualization",
+        "title": "Quy tắc an toàn",
+        "content": "Không nếm, không ngửi trực tiếp; đeo kính bảo hộ; đọc nhãn hóa chất.",
+        "visualization": "lab"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Axit loãng phải đổ chậm vào nước, không đổ ngược."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Báo ngay giáo viên khi có sự cố."
+      }
+    ]
+  },
+  {
+    "id": "g6_b06",
+    "title": "Bài 6. Đo khối lượng",
+    "skill": "g6_b06",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dùng cân, đơn vị gam và kilogam khi đo chất trong thí nghiệm."
+      },
+      {
+        "type": "visualization",
+        "title": "Cân và đơn vị",
+        "content": "Khối lượng đo lượng chất; đơn vị thường dùng: g, kg.",
+        "visualization": "measure"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "10 g muối + 5 g đường trong cốc cho tổng khối lượng hỗn hợp rắn 15 g."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đặt cân trên mặt phẳng, không rung khi đọc số."
+      }
+    ]
+  },
+  {
+    "id": "g6_b08",
+    "title": "Bài 8. Đo nhiệt độ",
+    "skill": "g6_b08",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Đọc nhiệt kế, đổi độ C và liên hệ với chuyển thể chất."
+      },
+      {
+        "type": "visualization",
+        "title": "Nhiệt kế",
+        "content": "Nhiệt độ ảnh hưởng thể chất; nước sôi khoảng 100°C (áp suất thường).",
+        "visualization": "temperature"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nước đá tan ở 0°C là ví dụ chuyển thể khi đủ nhiệt."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đọc vạch ngang mực nước hoặc cột thủy ngân."
+      }
+    ]
+  },
+  {
+    "id": "g6_b09",
+    "title": "Bài 9. Sự đa dạng của chất",
+    "skill": "g6_b09",
+    "chapter": "Chất quanh ta",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Phân biệt chất tinh khiết, hỗn hợp và tính chất vật lí – hóa học cơ bản."
+      },
+      {
+        "type": "visualization",
+        "title": "Chất quanh ta",
+        "content": "Mỗi chất có tính chất riêng; có chất tinh khiết và hỗn hợp.",
+        "visualization": "substances"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Muối ăn tinh khiết NaCl; nước biển là hỗn hợp muối và nước."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tách thử bằng tính chất vật lí hoặc hóa học."
+      }
+    ]
+  },
+  {
+    "id": "g6_b10",
+    "title": "Bài 10. Các thể của chất và sự chuyển thể",
+    "skill": "g6_b10",
+    "chapter": "Chất quanh ta",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mô tả rắn, lỏng, khí và nóng chảy, hóa hơi, ngưng tụ, thăng hoa."
+      },
+      {
+        "type": "visualization",
+        "title": "Ba thể chất",
+        "content": "Rắn, lỏng, khí khác nhau về khoảng cách và chuyển động hạt.",
+        "visualization": "states"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nước đá → nước lỏng: nóng chảy; nước lỏng → hơi: hóa hơi."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Cùng chất, khác thể tùy nhiệt độ và áp suất."
+      }
+    ]
+  },
+  {
+    "id": "g6_b11",
+    "title": "Bài 11. Oxygen. Không khí",
+    "skill": "g6_b11",
+    "chapter": "Chất quanh ta",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Tính chất oxy, thành phần không khí và vai trò trong sự cháy."
+      },
+      {
+        "type": "visualization",
+        "title": "Oxy và không khí",
+        "content": "Oxy hỗ trợ sự chay; không khí ~21% O₂, ~78% N₂.",
+        "visualization": "oxygen"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nến cháy trong bình kín sẽ tắt khi hết oxy."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Sự chay cần oxy, nhiên liệu và nhiệt độ đủ."
+      }
+    ]
+  },
+  {
+    "id": "g6_b12",
+    "title": "Bài 12. Một số vật liệu",
+    "skill": "g6_b12",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Phân loại vật liệu: kim loại, phi kim, polime và ứng dụng."
+      },
+      {
+        "type": "visualization",
+        "title": "Vật liệu",
+        "content": "Kim loại dẫn điện tốt; nhựa polime cách điện, nhẹ.",
+        "visualization": "materials"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đồng dùng dây điện; nhựa PVC làm ống nước."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Chọn vật liệu theo tính chất cần dùng."
+      }
+    ]
+  },
+  {
+    "id": "g6_b13",
+    "title": "Bài 13. Một số nguyên liệu",
+    "skill": "g6_b13",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nguyên liệu trong sản xuất: khoáng, dầu mỏ, sinh khối."
+      },
+      {
+        "type": "visualization",
+        "title": "Nguyên liệu",
+        "content": "Nguyên liệu là đầu vào sản xuất: quặng, gỗ, dầu thô.",
+        "visualization": "materials"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Sắt từ quặng hematit; đường từ mía là nguyên liệu thực phẩm."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Phân biệt nguyên liệu và sản phẩm."
+      }
+    ]
+  },
+  {
+    "id": "g6_b14",
+    "title": "Bài 14. Một số nhiên liệu",
+    "skill": "g6_b14",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nhiên liệu hóa thạch, sinh học; sự cháy và tiết kiệm năng lượng."
+      },
+      {
+        "type": "visualization",
+        "title": "Nhiên liệu",
+        "content": "Than, dầu, khí đốt chứa năng lượng hóa học.",
+        "visualization": "fuels"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Cháy than tỏa nhiệt; khí metan trong bếp gas."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tiết kiệm nhiên liệu, tránh cháy nổ."
+      }
+    ]
+  },
+  {
+    "id": "g6_b15",
+    "title": "Bài 15. Một số lương thực, thực phẩm",
+    "skill": "g6_b15",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Thành phần dinh dưỡng cơ bản và bảo quản thực phẩm."
+      },
+      {
+        "type": "visualization",
+        "title": "Thực phẩm",
+        "content": "Tinh bột, đường, protein, chất béo là nhóm chất chính.",
+        "visualization": "food"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Gạo nhiều tinh bột; trứng giàu protein."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Bảo quản khô ráo, mát hoặc lạnh tùy loại."
+      }
+    ]
+  },
+  {
+    "id": "g6_b16",
+    "title": "Bài 16. Hỗn hợp các chất",
+    "skill": "g6_b16",
+    "chapter": "Hỗn hợp. Tách chất ra khỏi hỗn hợp",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Phân biệt hỗn hợp đồng nhất, không đồng nhất; ví dụ dung dịch, không khí."
+      },
+      {
+        "type": "visualization",
+        "title": "Hỗn hợp",
+        "content": "Hỗn hợp gồm hai hay nhiều chất, giữ tính chất từng thành phần.",
+        "visualization": "mixture"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nước muối là dung dịch (hỗn hợp đồng nhất); nước + cát là không đồng nhất."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không phải mọi dung dịch đều có thể nhìn thấy hai pha."
+      }
+    ]
+  },
+  {
+    "id": "g6_b17",
+    "title": "Bài 17. Tách chất khỏi hỗn hợp",
+    "skill": "g6_b17",
+    "chapter": "Hỗn hợp. Tách chất ra khỏi hỗn hợp",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Lọc, khơi, chưng cất, thăng hoa và chọn phương pháp phù hợp."
+      },
+      {
+        "type": "visualization",
+        "title": "Tách hỗn hợp",
+        "content": "Lọc tách rắn–lỏng; khơi tách chất không hòa tan; chưng cất theo nhiệt độ sôi.",
+        "visualization": "separation"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Tách cát khỏi nước bằng lọc; tách muối từ nước biển bằng cô."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Chọn phương pháp theo tính chất thành phần."
+      }
+    ]
+  },
+  {
+    "id": "g7_b01",
+    "title": "Bài 1. Phương pháp và kĩ năng học tập môn KHTN",
+    "skill": "g7_b01",
+    "chapter": "Mở đầu KHTN 7",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Quan sát, đặt giả thuyết, thí nghiệm và rút ra kết luận khi học Hóa."
+      },
+      {
+        "type": "visualization",
+        "title": "Phương pháp khoa học",
+        "content": "Đặt câu hỏi → quan sát → thí nghiệm → kết luận → kiểm tra lại.",
+        "visualization": "khtn"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Thí nghiệm đốt magiê trong không khí N₂ khác với trong không khí thường."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Ghi chép số liệu và mô hình khi học Hóa."
+      }
+    ]
+  },
+  {
+    "id": "g7_b02",
+    "title": "Bài 2. Nguyên tử",
+    "skill": "g7_b02",
+    "chapter": "Nguyên tử. Bảng tuần hoàn",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Cấu tạo hạt nhân (p, n) và electron; số hiệu nguyên tử Z."
+      },
+      {
+        "type": "visualization",
+        "title": "Mô hình nguyên tử",
+        "content": "Hạt nhân gồm proton (+) và neutron; electron (-) quay quanh.",
+        "visualization": "atom",
+        "element": "H",
+        "protons": 1,
+        "neutrons": 0
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nguyên tử H: 1p, 0n, 1e; nguyên tử trung hòa khi p = e."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Z = số proton = số electron (nguyên tử trung hòa)."
+      }
+    ]
+  },
+  {
+    "id": "g7_b03",
+    "title": "Bài 3. Nguyên tố hóa học",
+    "skill": "g7_b03",
+    "chapter": "Nguyên tử. Bảng tuần hoàn",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nguyên tố là tập hợp các nguyên tử cùng Z; đồng vị, nguyên tử khối."
+      },
+      {
+        "type": "visualization",
+        "title": "Nguyên tố hóa học",
+        "content": "Các nguyên tử cùng Z thuộc một nguyên tố; kí hiệu như O, Fe.",
+        "visualization": "atom",
+        "element": "C",
+        "protons": 6,
+        "neutrons": 6
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đồng vị: cùng Z, khác số neutron (¹²C, ¹⁴C)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Nguyên tử khối trung bình tính theo tỉ lệ đồng vị."
+      }
+    ]
+  },
+  {
+    "id": "g7_b04",
+    "title": "Bài 4. Sơ lược bảng tuần hoàn các nguyên tố",
+    "skill": "g7_b04",
+    "chapter": "Nguyên tử. Bảng tuần hoàn",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Chu kì, nhóm; xu hướng tính chất theo Z và cấu hình electron lớp ngoài."
+      },
+      {
+        "type": "visualization",
+        "title": "Bảng tuần hoàn",
+        "content": "Hàng ngang: chu kì; cột dọc: nhóm; số nguyên tử tăng dần.",
+        "visualization": "periodic",
+        "symbol": "Na"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Li, Na, K cùng nhóm I A → 1 e lớp ngoài → tính kim loại."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Góc trên phải thường là khí hiếm, ít phản ứng."
+      }
+    ]
+  },
+  {
+    "id": "g7_b05",
+    "title": "Bài 5. Phân tử – Đơn chất – Hợp chất",
+    "skill": "g7_b05",
+    "chapter": "Phân tử. Liên kết hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Phân biệt nguyên tử, phân tử, đơn chất, hợp chất; công thức hóa học đơn giản."
+      },
+      {
+        "type": "visualization",
+        "title": "Phân tử và hợp chất",
+        "content": "Phân tử gồm hai hay nhiều nguyên tử liên kết; O₂ là đơn chất.",
+        "visualization": "moleculeTypes"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "H₂O là hợp chất (H + O); CO₂ là hợp chất."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đơn chất: một nguyên tố; hợp chất: hai nguyên tố trở lên."
+      }
+    ]
+  },
+  {
+    "id": "g7_b06",
+    "title": "Bài 6. Giới thiệu liên kết hóa học",
+    "skill": "g7_b06",
+    "chapter": "Phân tử. Liên kết hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Liên kết ion và liên kết cộng hóa trị; ví dụ NaCl, H₂O."
+      },
+      {
+        "type": "visualization",
+        "title": "Hai loại liên kết",
+        "content": "Ion: trao electron (NaCl). Cộng hóa trị: dùng chung e⁻ (H₂O).",
+        "visualization": "bondIntro"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Na → Na⁺ + e⁻; Cl + e⁻ → Cl⁻; Na⁺ hút Cl⁻."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Kim loại + phi kim thường tạo liên kết ion."
+      }
+    ]
+  },
+  {
+    "id": "g7_b07",
+    "title": "Bài 7. Hóa trị và công thức hóa học",
+    "skill": "g7_b07",
+    "chapter": "Phân tử. Liên kết hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Hóa trị, quy tắc viết công thức hợp chất ion và cộng hóa trị cơ bản."
+      },
+      {
+        "type": "visualization",
+        "title": "Hóa trị và công thức",
+        "content": "Hóa trị = số electron tham gia liên kết (theo quy ước).",
+        "visualization": "valence"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "NaCl: Na(I), Cl(I); Al₂O₃: Al(III), O(II)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tổng điện tích ion dương và âm trong hợp chất = 0."
+      }
+    ]
+  },
+  {
+    "id": "g8_b02",
+    "title": "Bài 2. Phản ứng hóa học",
+    "skill": "g8_b02",
+    "chapter": "Phản ứng hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nhận biết PTHH, sản phẩm–chất tham gia; phản ứng hóa hợp, phân hủy, thế, trao đổi."
+      },
+      {
+        "type": "visualization",
+        "title": "Phản ứng hóa học",
+        "content": "Chất tham gia → sản phẩm; có thể tỏa nhiệt hoặc cần nhiệt.",
+        "visualization": "reaction",
+        "reactants": "2H₂O₂",
+        "products": "2H₂O + O₂"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "2H₂ + O₂ → 2H₂O là phản ứng hóa hợp."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Viết đúng chất rắn, lỏng, khí trong PTHH."
+      }
+    ]
+  },
+  {
+    "id": "g8_b03",
+    "title": "Bài 3. Mol và tỉ khối chất khí",
+    "skill": "g8_b03",
+    "chapter": "Phản ứng hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mol là đơn vị lượng chất; khối lượng mol, thể tích mol khí ở đktc."
+      },
+      {
+        "type": "visualization",
+        "title": "Mol và khối lượng mol",
+        "content": "1 mol H₂O có 6,02·10²³ phân tử; M(H₂O) ≈ 18 g/mol.",
+        "visualization": "mole"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "18 g H₂O = 1 mol; 36 g = 2 mol."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "n = m/M; khối lượng mol đọc từ bảng TH."
+      }
+    ]
+  },
+  {
+    "id": "g8_b04",
+    "title": "Bài 4. Dung dịch và nồng độ",
+    "skill": "g8_b04",
+    "chapter": "Phản ứng hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dung môi, dung dịch; nồng độ C%, nồng độ mol/l."
+      },
+      {
+        "type": "visualization",
+        "title": "Nồng độ dung dịch",
+        "content": "C% = khối lượng chất tan / khối lượng dung dịch × 100%.",
+        "visualization": "solution"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "10 g muối + 90 g nước → C% ≈ 10%."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Phân biệt chất tan, dung môi, dung dịch."
+      }
+    ]
+  },
+  {
+    "id": "g8_b05",
+    "title": "Bài 5. Bảo toàn khối lượng và phương trình hóa học",
+    "skill": "g8_b05",
+    "chapter": "Phản ứng hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Định luật bảo toàn khối lượng; cân bằng hệ số trong PTHH."
+      },
+      {
+        "type": "visualization",
+        "title": "Bảo toàn và cân bằng",
+        "content": "Tổng khối lượng reactant = tổng khối lượng product (kín).",
+        "visualization": "equationBalance",
+        "left": "2H₂ + O₂",
+        "right": "2H₂O"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "2H₂ + O₂ → 2H₂O: 4g H + 32g O → 36g H₂O."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Cân hệ số để mỗi nguyên tố bằng nhau hai vế."
+      }
+    ]
+  },
+  {
+    "id": "g8_b06",
+    "title": "Bài 6. Tính theo phương trình hóa học",
+    "skill": "g8_b06",
+    "chapter": "Phản ứng hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Tính khối lượng, thể tích, số mol chất theo tỉ lệ mol trong PTHH."
+      },
+      {
+        "type": "visualization",
+        "title": "Tính theo PTHH",
+        "content": "Dùng tỉ lệ mol từ hệ số để tìm khối lượng chất khác.",
+        "visualization": "stoichiometry",
+        "left": "2H₂ + O₂",
+        "right": "2H₂O"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "2H₂ + O₂ → 2H₂O: 2 mol H₂ cần 1 mol O₂."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Bước: mol chất đã biết → mol chất cần tìm → khối lượng."
+      }
+    ]
+  },
+  {
+    "id": "g8_b07",
+    "title": "Bài 7. Tốc độ phản ứng và chất xúc tác",
+    "skill": "g8_b07",
+    "chapter": "Phản ứng hóa học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Yếu tố ảnh hưởng tốc độ; vai trò xúc tác (MnO₂ với H₂O₂)."
+      },
+      {
+        "type": "visualization",
+        "title": "Tốc độ và xúc tác",
+        "content": "Tăng nồng độ, nhiệt độ, diện tiếp xúc → nhanh hơn.",
+        "visualization": "catalyst",
+        "reactants": "2H₂O₂",
+        "products": "2H₂O + O₂"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "MnO₂ xúc tác phân hủy H₂O₂."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Xúc tác tăng tốc, không tiêu hao vĩnh viễn."
+      }
+    ]
+  },
+  {
+    "id": "g8_b08",
+    "title": "Bài 8. Acid",
+    "skill": "g8_b08",
+    "chapter": "Một số hợp chất thông dụng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Định nghĩa axit Arrhenius; tính chất, ứng dụng axit vô cơ thường gặp."
+      },
+      {
+        "type": "visualization",
+        "title": "Axit",
+        "content": "Axit trong nước tạo H⁺; có vị chua, đổi màu quỳ đỏ.",
+        "visualization": "acid"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "HCl, H₂SO₄ loãng cần cẩn thận khi pha."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không đổ nước vào axit đặc."
+      }
+    ]
+  },
+  {
+    "id": "g8_b09",
+    "title": "Bài 9. Base – thang pH",
+    "skill": "g8_b09",
+    "chapter": "Một số hợp chất thông dụng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Bazơ; thang pH; quan hệ H⁺, OH⁻ và trung hòa."
+      },
+      {
+        "type": "visualization",
+        "title": "Bazơ và pH",
+        "content": "Bazơ tạo OH⁻; pH < 7 axit, pH > 7 bazơ, pH = 7 trung tính.",
+        "visualization": "acidbase"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "NaOH + HCl → NaCl + H₂O."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Dùng thang pH để so sánh độ axit/bazơ."
+      }
+    ]
+  },
+  {
+    "id": "g8_b10",
+    "title": "Bài 10. Oxide",
+    "skill": "g8_b10",
+    "chapter": "Một số hợp chất thông dụng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Oxide axit, oxide bazơ; phản ứng với nước, axit, bazơ."
+      },
+      {
+        "type": "visualization",
+        "title": "Oxide",
+        "content": "Oxide + nước → axit hoặc bazơ tùy loại.",
+        "visualization": "oxide"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "CO₂ + H₂O → H₂CO₃ (oxide axit); CaO + H₂O → Ca(OH)₂."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Phân loại oxide axit / bazơ."
+      }
+    ]
+  },
+  {
+    "id": "g8_b11",
+    "title": "Bài 11. Muối",
+    "skill": "g8_b11",
+    "chapter": "Một số hợp chất thông dụng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Muối; phản ứng trao đổi; điều chế và ứng dụng muối."
+      },
+      {
+        "type": "visualization",
+        "title": "Muối",
+        "content": "Axit + bazơ → muối + nước; muối có ion kim loại và acid.",
+        "visualization": "salt"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "NaCl, CaCO₃, KNO₃ ứng dụng rộng."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Kiểm tra sự hình thành kết tủa hoặc khí."
+      }
+    ]
+  },
+  {
+    "id": "g8_b12",
+    "title": "Bài 12. Phân bón hóa học",
+    "skill": "g8_b12",
+    "chapter": "Một số hợp chất thông dụng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Phân bón NPK; vai trò đạm, lân, kali đối với cây trồng."
+      },
+      {
+        "type": "visualization",
+        "title": "Phân bón",
+        "content": "N (đạm), P (lân), K (kali) nuôi cây.",
+        "visualization": "fertilizer"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "NPK 16-16-8: % khối lượng N, P₂O₅, K₂O."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Bón đúng liều, tránh ô nhiễm nước."
+      }
+    ]
+  },
+  {
+    "id": "g9_b18",
+    "title": "Bài 18. Tính chất chung của kim loại",
+    "skill": "g9_b18",
+    "chapter": "Kim loại và phi kim",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dẫn điện, dẫn nhiệt, có ánh kim; tính chất vật lí–hóa học chung."
+      },
+      {
+        "type": "visualization",
+        "title": "Kim loại",
+        "content": "Dẫn điện tốt, dẻo (một số KL), dùng làm dây dẫn, nồi.",
+        "visualization": "metal"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Cu, Al, Fe ứng dụng rộng."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Kim loại mất electron → ion dương."
+      }
+    ]
+  },
+  {
+    "id": "g9_b19",
+    "title": "Bài 19. Dãy hoạt động hóa học",
+    "skill": "g9_b19",
+    "chapter": "Kim loại và phi kim",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Thứ tự kim loại theo khả năng mất electron; phản ứng thế."
+      },
+      {
+        "type": "visualization",
+        "title": "Dãy hoạt động",
+        "content": "Kim loại đứng trước thế kim loại đứng sau trong dung dịch muối.",
+        "visualization": "activitySeries"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Zn + CuSO₄ → ZnSO₄ + Cu."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không đặt K gần nguồn nước."
+      }
+    ]
+  },
+  {
+    "id": "g9_b20",
+    "title": "Bài 20. Tách kim loại và hợp kim",
+    "skill": "g9_b20",
+    "chapter": "Kim loại và phi kim",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Luyện kim, tái chế; hợp kim thép, đồng thau và ứng dụng."
+      },
+      {
+        "type": "visualization",
+        "title": "Hợp kim",
+        "content": "Hợp kim = kim loại + nguyên tố khác (thường là kim loại).",
+        "visualization": "alloy"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Thép: Fe + C; đồng thau: Cu + Zn."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tính chất hợp kim khác kim loại gốc."
+      }
+    ]
+  },
+  {
+    "id": "g9_b21",
+    "title": "Bài 21. Phi kim và kim loại",
+    "skill": "g9_b21",
+    "chapter": "Kim loại và phi kim",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "So sánh tính chất; vai trò phi kim (C, S, P…) trong đời sống."
+      },
+      {
+        "type": "visualization",
+        "title": "Phi kim – kim loại",
+        "content": "Phi kim: C, H, O, N, S…; kim loại: Cu, Fe, Al…",
+        "visualization": "nonmetal"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Than (C) và đồng (Cu) khác nhóm tính chất."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Sử dụng đúng vật liệu theo tính chất."
+      }
+    ]
+  },
+  {
+    "id": "g9_b22",
+    "title": "Bài 22. Giới thiệu hợp chất hữu cơ",
+    "skill": "g9_b22",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Hữu cơ chứa C (thường kèm H); công thức, mô hình, nguồn dầu mỏ."
+      },
+      {
+        "type": "visualization",
+        "title": "Hữu cơ",
+        "content": "Hợp chất hữu cơ có carbon (thường liên kết C–H).",
+        "visualization": "organic"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Dầu mỏ phân đoạn → xăng, dầu."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Khác vô cơ: muối, nước không phải hữu cơ."
+      }
+    ]
+  },
+  {
+    "id": "g9_b23",
+    "title": "Bài 23. Alkane",
+    "skill": "g9_b23",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Ankan no CₙH₂ₙ₊₂; metan, etan; phản ứng cháy."
+      },
+      {
+        "type": "visualization",
+        "title": "Alkane",
+        "content": "CₙH₂ₙ₊₂; CH₄ metan, C₂H₆ etan.",
+        "visualization": "alkane"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "CH₄ + 2O₂ → CO₂ + 2H₂O."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Liên kết đơn C–C, C–H."
+      }
+    ]
+  },
+  {
+    "id": "g9_b24",
+    "title": "Bài 24. Alkene",
+    "skill": "g9_b24",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Anken có liên kết đôi C=C; etilen và ứng dụng."
+      },
+      {
+        "type": "visualization",
+        "title": "Alkene",
+        "content": "CₙH₂ₙ; có liên kết đôi C=C.",
+        "visualization": "alkene"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "C₂H₄ etilen dùng trong công nghiệp."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Eten làm chín quả."
+      }
+    ]
+  },
+  {
+    "id": "g9_b25",
+    "title": "Bài 25. Nguồn nhiên liệu",
+    "skill": "g9_b25",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dầu mỏ, than, khí; chế biến và tác động môi trường."
+      },
+      {
+        "type": "visualization",
+        "title": "Nhiên liệu",
+        "content": "Than, dầu, khí thiên nhiên là nguồn hydrocarbon.",
+        "visualization": "fuels"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Cháy tạo CO₂, H₂O và năng lượng."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tiết kiệm, giảm khí thải."
+      }
+    ]
+  },
+  {
+    "id": "g9_b26",
+    "title": "Bài 26. Ethylic alcohol",
+    "skill": "g9_b26",
+    "chapter": "Ethylic alcohol và acetic acid",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "C₂H₅OH: tính chất, ứng dụng, an toàn khi dùng cồn."
+      },
+      {
+        "type": "visualization",
+        "title": "Ethylic alcohol",
+        "content": "C₂H₅OH tan trong nước; cháy được.",
+        "visualization": "alcohol"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Rượu có cồn; không uống khi học lab."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không đổ cồn gần lửa."
+      }
+    ]
+  },
+  {
+    "id": "g9_b27",
+    "title": "Bài 27. Acetic acid",
+    "skill": "g9_b27",
+    "chapter": "Ethylic alcohol và acetic acid",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "CH₃COOH: axit yếu, giấm, este hóa học đơn giản."
+      },
+      {
+        "type": "visualization",
+        "title": "Acetic acid",
+        "content": "CH₃COOH; axit yếu; giấm ăn.",
+        "visualization": "acetic"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "CH₃COOH + NaOH → CH₃COONa + H₂O."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Có mùi chua đặc trưng."
+      }
+    ]
+  },
+  {
+    "id": "g9_b28",
+    "title": "Bài 28. Lipid",
+    "skill": "g9_b28",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Chất béo: cấu tạo, vai trò năng lượng và dinh dưỡng."
+      },
+      {
+        "type": "visualization",
+        "title": "Lipid",
+        "content": "Chất béo: este của glyxerol và axit béo.",
+        "visualization": "lipid"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Dầu ăn, mỡ động vật."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Năng lượng dự trữ."
+      }
+    ]
+  },
+  {
+    "id": "g9_b29",
+    "title": "Bài 29. Carbohydrate. Glucose và saccharose",
+    "skill": "g9_b29",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Glucose C₆H₁₂O₆, saccharose; phản ứng với Cu(OH)₂."
+      },
+      {
+        "type": "visualization",
+        "title": "Glucose",
+        "content": "C₆H₁₂O₆ đường đơn; saccharose C₁₂H₂₂O₁₁.",
+        "visualization": "glucose"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Phản ứng đặc trưng với Cu(OH)₂ (glucose)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Carbohydrate cung cấp năng lượng."
+      }
+    ]
+  },
+  {
+    "id": "g9_b30",
+    "title": "Bài 30. Tinh bột và cellulose",
+    "skill": "g9_b30",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Polime carbohydrate; tinh bột, xenluloz và ứng dụng."
+      },
+      {
+        "type": "visualization",
+        "title": "Tinh bột – xenluloz",
+        "content": "Polime lớn từ đơn vị glucose.",
+        "visualization": "starch"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Tinh bột trong gạo; xenluloz trong gỗ, cotton."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Iodine đổi màu với tinh bột."
+      }
+    ]
+  },
+  {
+    "id": "g9_b31",
+    "title": "Bài 31. Protein",
+    "skill": "g9_b31",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Protein từ amino acid; enzyme và thức ăn giàu đạm."
+      },
+      {
+        "type": "visualization",
+        "title": "Protein",
+        "content": "Chuỗi amino acid; enzyme là protein.",
+        "visualization": "protein"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Trứng, đậu giàu protein."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Nhiệt cao làm biến tính protein."
+      }
+    ]
+  },
+  {
+    "id": "g9_b32",
+    "title": "Bài 32. Polymer",
+    "skill": "g9_b32",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Polime tổng hợp: PVC, PE; tái chế nhựa."
+      },
+      {
+        "type": "visualization",
+        "title": "Polymer",
+        "content": "Phân tử khổng lồ; PVC, PE, nylon.",
+        "visualization": "polymer"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Túi nilon, ống PVC."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tái chế giảm rác thải nhựa."
+      }
+    ]
+  },
+  {
+    "id": "g9_b33",
+    "title": "Bài 33. Hóa học vỏ Trái Đất",
+    "skill": "g9_b33",
+    "chapter": "Khai thác tài nguyên vỏ Trái Đất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Thành phần vỏ Trái Đất; khoáng sản và khai thác có trách nhiệm."
+      },
+      {
+        "type": "visualization",
+        "title": "Vỏ Trái Đất",
+        "content": "Si, O, Al, Fe… dạng silicate, oxide.",
+        "visualization": "earthCrust"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Quặng sắt, bauxit nhôm."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Khai thác bền vững."
+      }
+    ]
+  },
+  {
+    "id": "g9_b34",
+    "title": "Bài 34. Đá vôi và công nghiệp silicate",
+    "skill": "g9_b34",
+    "chapter": "Khai thác tài nguyên vỏ Trái Đất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "CaCO₃, sản xuất xi măng, thủy tinh, gốm sứ."
+      },
+      {
+        "type": "visualization",
+        "title": "Đá vôi – silicate",
+        "content": "CaCO₃ nung → CaO, xi măng.",
+        "visualization": "silicate"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Thủy tinh, gốm từ silicate."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "CO₂ từ sản xuất vôi."
+      }
+    ]
+  },
+  {
+    "id": "g9_b35",
+    "title": "Bài 35. Nhiên liệu hóa thạch và chu trình carbon",
+    "skill": "g9_b35",
+    "chapter": "Khai thác tài nguyên vỏ Trái Đất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Hóa), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Khai thác than dầu; chu trình carbon và biến đổi khí hậu."
+      },
+      {
+        "type": "visualization",
+        "title": "Carbon và khí hậu",
+        "content": "Chu trình carbon: CO₂ ↔ sinh vật ↔ nhiên liệu.",
+        "visualization": "carbonCycle"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đốt nhiên liệu tăng CO₂ khí quyển."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Giảm phát thải, trồng cây."
+      }
+    ]
+  }
+]

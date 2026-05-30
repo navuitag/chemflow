@@ -1,0 +1,254 @@
+[
+  {
+    "pattern": "nuoc vao axit",
+    "skill": "g6_b02",
+    "errorType": "safety_error",
+    "title": "Đổ sai thứ tự axit – nước",
+    "message": "Không được đổ nước vào axit đặc.",
+    "hint": "Luôn đổ axit loãng chậm vào nước.",
+    "recommendation": "g6_b02"
+  },
+  {
+    "pattern": "kg",
+    "skill": "g6_b06",
+    "errorType": "unit_error",
+    "title": "Nhầm đơn vị đo",
+    "message": "gam và kilogam đều là khối lượng nhưng khác bậc.",
+    "hint": "Đổi 1 kg = 1000 g khi cần.",
+    "recommendation": "g6_b06"
+  },
+  {
+    "pattern": "0",
+    "skill": "g6_b08",
+    "errorType": "temp_error",
+    "title": "Nhầm nóng chảy và sôi",
+    "message": "0°C là nhiệt độ nóng chảy của nước đá, không phải sôi.",
+    "hint": "Sôi của nước khoảng 100°C.",
+    "recommendation": "g6_b08"
+  },
+  {
+    "pattern": "tinh khiet",
+    "skill": "g6_b09",
+    "errorType": "substance_error",
+    "title": "Nhầm hỗn hợp với chất tinh khiết",
+    "message": "Nước biển có nhiều muối hòa tan.",
+    "hint": "Hỏi có mấy loại chất trong mẫu.",
+    "recommendation": "g6_b09"
+  },
+  {
+    "pattern": "hoa hoi",
+    "skill": "g6_b10",
+    "errorType": "state_error",
+    "title": "Nhầm nóng chảy và hóa hơi",
+    "message": "Đá tan là nóng chảy (rắn→lỏng), không phải hóa hơi.",
+    "hint": "Hóa hơi là lỏng→khí.",
+    "recommendation": "g6_b10"
+  },
+  {
+    "pattern": "78",
+    "skill": "g6_b11",
+    "errorType": "air_error",
+    "title": "Nhầm % oxy và nitơ",
+    "message": "78% là nitơ trong không khí, không phải oxy.",
+    "hint": "Oxy khoảng 21%.",
+    "recommendation": "g6_b11"
+  },
+  {
+    "pattern": "dong nhat",
+    "skill": "g6_b16",
+    "errorType": "mixture_error",
+    "title": "Nhầm loại hỗn hợp",
+    "message": "Cát + nước có hai pha rõ → không đồng nhất.",
+    "hint": "Dung dịch muối là đồng nhất.",
+    "recommendation": "g6_b16"
+  },
+  {
+    "pattern": "loc",
+    "skill": "g6_b17",
+    "errorType": "separation_error",
+    "title": "Chọn sai phương pháp tách",
+    "message": "Lọc không tách muối đã hòa tan trong nước.",
+    "hint": "Dùng cô hoặc chưng cất với dung dịch.",
+    "recommendation": "g6_b17"
+  },
+  {
+    "pattern": "electron",
+    "skill": "g7_b02",
+    "errorType": "particle_error",
+    "title": "Nhầm vị trí hạt",
+    "message": "Proton ở hạt nhân, electron ở vỏ.",
+    "hint": "p⁺ trong nhân, e⁻ ngoài vỏ.",
+    "recommendation": "g7_b02"
+  },
+  {
+    "pattern": "khac z",
+    "skill": "g7_b03",
+    "errorType": "element_error",
+    "title": "Nhầm nguyên tố và nguyên tử",
+    "message": "Nguyên tố = tập nguyên tử cùng Z.",
+    "hint": "Cùng số proton → cùng nguyên tố.",
+    "recommendation": "g7_b03"
+  },
+  {
+    "pattern": "78",
+    "skill": "g7_b04",
+    "errorType": "periodic_error",
+    "title": "Nhầm % khí với nhóm bảng",
+    "message": "78% là N₂ trong không khí, không phải nhóm bảng.",
+    "hint": "Nhóm = cột, chu kì = hàng.",
+    "recommendation": "g7_b04"
+  },
+  {
+    "pattern": "o2",
+    "skill": "g7_b05",
+    "errorType": "substance_class",
+    "title": "Nhầm O₂ với hợp chất",
+    "message": "O₂ chỉ có nguyên tử O liên kết → đơn chất.",
+    "hint": "Hợp chất cần ≥ 2 nguyên tố.",
+    "recommendation": "g7_b05"
+  },
+  {
+    "pattern": "nacl2",
+    "skill": "g7_b06",
+    "errorType": "formula_error",
+    "title": "Công thức ion sai",
+    "message": "NaCl không có chỉ số 2 sau Cl.",
+    "hint": "Hóa trị Na(I) và Cl(I) triệt tiêu.",
+    "recommendation": "g7_b06"
+  },
+  {
+    "pattern": "al2",
+    "skill": "g7_b07",
+    "errorType": "valence_error",
+    "title": "Hóa trị nhôm chưa đúng",
+    "message": "Al thường hóa trị III trong Al₂O₃.",
+    "hint": "Tổng điện tích = 0 khi ghép ion.",
+    "recommendation": "g7_b07"
+  },
+  {
+    "pattern": "16",
+    "skill": "g8_b03",
+    "errorType": "molar_mass_error",
+    "title": "Nhầm khối lượng mol H2O",
+    "message": "H2O: M ≈ 18, không phải 16.",
+    "hint": "Cộng khối lượng nguyên tử trong công thức.",
+    "recommendation": "g8_b03"
+  },
+  {
+    "pattern": "90",
+    "skill": "g8_b04",
+    "errorType": "concentration_error",
+    "title": "Nhầm C% dung dịch",
+    "message": "10% là 10g tan / 100g dung dịch, không phải 90g tan.",
+    "hint": "Xác định mẫu số đúng.",
+    "recommendation": "g8_b04"
+  },
+  {
+    "pattern": "h2o",
+    "skill": "g8_b05",
+    "errorType": "E002",
+    "title": "Chưa cân đủ H hoặc O",
+    "message": "Đếm nguyên tử hai vế sau khi đặt hệ số.",
+    "hint": "Cân O sau khi cân H.",
+    "recommendation": "g8_b05"
+  },
+  {
+    "pattern": "4",
+    "skill": "g8_b06",
+    "errorType": "stoich_error",
+    "title": "Sai tỉ mol trong PTHH",
+    "message": "2H2 + O2 → 2H2O có tỉ mol 2:1:2.",
+    "hint": "Dùng hệ số làm tỉ mol.",
+    "recommendation": "g8_b06"
+  },
+  {
+    "pattern": "7",
+    "skill": "g8_b08",
+    "errorType": "ph_error",
+    "title": "Nhầm pH axit",
+    "message": "pH < 7 là axit.",
+    "hint": "pH = 7 trung tính.",
+    "recommendation": "g8_b08"
+  },
+  {
+    "pattern": "hcl",
+    "skill": "g8_b09",
+    "errorType": "neutral_error",
+    "title": "Nhầm sản phẩm trung hòa",
+    "message": "HCl + NaOH → NaCl + H2O.",
+    "hint": "Không còn H+ và OH- dư.",
+    "recommendation": "g8_b09"
+  },
+  {
+    "pattern": "cao",
+    "skill": "g8_b10",
+    "errorType": "oxide_error",
+    "title": "Nhầm loại oxide",
+    "message": "CaO là oxide bazơ, CO2 là oxide axit.",
+    "hint": "Thử với nước hoặc axit/bazơ.",
+    "recommendation": "g8_b10"
+  },
+  {
+    "pattern": "naoh",
+    "skill": "g8_b11",
+    "errorType": "salt_error",
+    "title": "Nhầm muối và bazơ",
+    "message": "NaOH là bazơ, NaCl là muối.",
+    "hint": "Sau trung hòa mới có muối.",
+    "recommendation": "g8_b11"
+  },
+  {
+    "pattern": "cu truoc",
+    "skill": "g9_b19",
+    "errorType": "activity_error",
+    "title": "Sai thứ tự dãy hoạt động",
+    "message": "Kim loại đứng trước mới thế kim loại đứng sau.",
+    "hint": "Zn trước Cu, Fe trước Cu…",
+    "recommendation": "g9_b19"
+  },
+  {
+    "pattern": "co2",
+    "skill": "g9_b22",
+    "errorType": "organic_error",
+    "title": "Nhầm hữu cơ",
+    "message": "CO2 có C nhưng thường xét hợp chất hữu cơ là hydrocarbon, este…",
+    "hint": "CH4, C2H5OH là hữu cơ.",
+    "recommendation": "g9_b22"
+  },
+  {
+    "pattern": "cnh2n",
+    "skill": "g9_b23",
+    "errorType": "alkane_error",
+    "title": "Nhầm ankan và anken",
+    "message": "Ankan CnH2n+2, anken CnH2n.",
+    "hint": "Metan CH4 là ankan.",
+    "recommendation": "g9_b23"
+  },
+  {
+    "pattern": "ch3cooh",
+    "skill": "g9_b26",
+    "errorType": "alcohol_error",
+    "title": "Nhầm cồn và giấm",
+    "message": "C2H5OH là cồn, CH3COOH là axit axetic.",
+    "hint": "Đọc đúng nhóm chức.",
+    "recommendation": "g9_b26"
+  },
+  {
+    "pattern": "c12h22o11",
+    "skill": "g9_b29",
+    "errorType": "sugar_error",
+    "title": "Nhầm glucose và saccharose",
+    "message": "Glucose C6H12O6, saccharose C12H22O11.",
+    "hint": "Đường đơn vs đôi.",
+    "recommendation": "g9_b29"
+  },
+  {
+    "pattern": "fe",
+    "skill": "g9_b32",
+    "errorType": "polymer_error",
+    "title": "Nhầm polymer và kim loại",
+    "message": "PVC, PE là polime; Fe là kim loại.",
+    "hint": "Nhựa ≠ kim loại.",
+    "recommendation": "g9_b32"
+  }
+]

@@ -1,0 +1,778 @@
+[
+  {
+    "id": "g6_b01",
+    "title": "Bài 1. Giới thiệu về Khoa học tự nhiên",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 1,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Nhận biết ba lĩnh vực KHTN và vai trò Hóa học trong đời sống.",
+    "visualization": "khtn"
+  },
+  {
+    "id": "g6_b02",
+    "title": "Bài 2. An toàn trong phòng thực hành",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 2,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [
+      "g6_b01"
+    ],
+    "description": "Tuân thủ quy tắc an toàn khi làm thí nghiệm Hóa – Sinh – Vật lí.",
+    "visualization": "lab"
+  },
+  {
+    "id": "g6_b06",
+    "title": "Bài 6. Đo khối lượng",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 6,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [
+      "g6_b02"
+    ],
+    "description": "Dùng cân, đơn vị gam và kilogam khi đo chất trong thí nghiệm.",
+    "visualization": "measure"
+  },
+  {
+    "id": "g6_b08",
+    "title": "Bài 8. Đo nhiệt độ",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 8,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [
+      "g6_b06"
+    ],
+    "description": "Đọc nhiệt kế, đổi độ C và liên hệ với chuyển thể chất.",
+    "visualization": "temperature"
+  },
+  {
+    "id": "g6_b09",
+    "title": "Bài 9. Sự đa dạng của chất",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Chất quanh ta",
+    "chapterIndex": 2,
+    "lessonNo": 9,
+    "domain": "Chất quanh ta",
+    "level": 2,
+    "prerequisite": [
+      "g6_b08"
+    ],
+    "description": "Phân biệt chất tinh khiết, hỗn hợp và tính chất vật lí – hóa học cơ bản.",
+    "visualization": "substances"
+  },
+  {
+    "id": "g6_b10",
+    "title": "Bài 10. Các thể của chất và sự chuyển thể",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Chất quanh ta",
+    "chapterIndex": 2,
+    "lessonNo": 10,
+    "domain": "Chất quanh ta",
+    "level": 2,
+    "prerequisite": [
+      "g6_b09"
+    ],
+    "description": "Mô tả rắn, lỏng, khí và nóng chảy, hóa hơi, ngưng tụ, thăng hoa.",
+    "visualization": "states"
+  },
+  {
+    "id": "g6_b11",
+    "title": "Bài 11. Oxygen. Không khí",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Chất quanh ta",
+    "chapterIndex": 2,
+    "lessonNo": 11,
+    "domain": "Chất quanh ta",
+    "level": 2,
+    "prerequisite": [
+      "g6_b10"
+    ],
+    "description": "Tính chất oxy, thành phần không khí và vai trò trong sự cháy.",
+    "visualization": "oxygen"
+  },
+  {
+    "id": "g6_b12",
+    "title": "Bài 12. Một số vật liệu",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "chapterIndex": 3,
+    "lessonNo": 12,
+    "domain": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "level": 3,
+    "prerequisite": [
+      "g6_b11"
+    ],
+    "description": "Phân loại vật liệu: kim loại, phi kim, polime và ứng dụng.",
+    "visualization": "materials"
+  },
+  {
+    "id": "g6_b13",
+    "title": "Bài 13. Một số nguyên liệu",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "chapterIndex": 3,
+    "lessonNo": 13,
+    "domain": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "level": 3,
+    "prerequisite": [
+      "g6_b12"
+    ],
+    "description": "Nguyên liệu trong sản xuất: khoáng, dầu mỏ, sinh khối.",
+    "visualization": "materials"
+  },
+  {
+    "id": "g6_b14",
+    "title": "Bài 14. Một số nhiên liệu",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "chapterIndex": 3,
+    "lessonNo": 14,
+    "domain": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "level": 3,
+    "prerequisite": [
+      "g6_b13"
+    ],
+    "description": "Nhiên liệu hóa thạch, sinh học; sự cháy và tiết kiệm năng lượng.",
+    "visualization": "fuels"
+  },
+  {
+    "id": "g6_b15",
+    "title": "Bài 15. Một số lương thực, thực phẩm",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "chapterIndex": 3,
+    "lessonNo": 15,
+    "domain": "Vật liệu, nguyên liệu, nhiên liệu, thực phẩm",
+    "level": 3,
+    "prerequisite": [
+      "g6_b14"
+    ],
+    "description": "Thành phần dinh dưỡng cơ bản và bảo quản thực phẩm.",
+    "visualization": "food"
+  },
+  {
+    "id": "g6_b16",
+    "title": "Bài 16. Hỗn hợp các chất",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Hỗn hợp. Tách chất ra khỏi hỗn hợp",
+    "chapterIndex": 4,
+    "lessonNo": 16,
+    "domain": "Hỗn hợp. Tách chất ra khỏi hỗn hợp",
+    "level": 3,
+    "prerequisite": [
+      "g6_b15"
+    ],
+    "description": "Phân biệt hỗn hợp đồng nhất, không đồng nhất; ví dụ dung dịch, không khí.",
+    "visualization": "mixture"
+  },
+  {
+    "id": "g6_b17",
+    "title": "Bài 17. Tách chất khỏi hỗn hợp",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Hỗn hợp. Tách chất ra khỏi hỗn hợp",
+    "chapterIndex": 4,
+    "lessonNo": 17,
+    "domain": "Hỗn hợp. Tách chất ra khỏi hỗn hợp",
+    "level": 3,
+    "prerequisite": [
+      "g6_b16"
+    ],
+    "description": "Lọc, khơi, chưng cất, thăng hoa và chọn phương pháp phù hợp.",
+    "visualization": "separation"
+  },
+  {
+    "id": "g7_b01",
+    "title": "Bài 1. Phương pháp và kĩ năng học tập môn KHTN",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu KHTN 7",
+    "chapterIndex": 1,
+    "lessonNo": 1,
+    "domain": "Mở đầu KHTN 7",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Quan sát, đặt giả thuyết, thí nghiệm và rút ra kết luận khi học Hóa.",
+    "visualization": "khtn"
+  },
+  {
+    "id": "g7_b02",
+    "title": "Bài 2. Nguyên tử",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Nguyên tử. Bảng tuần hoàn",
+    "chapterIndex": 1,
+    "lessonNo": 2,
+    "domain": "Nguyên tử. Bảng tuần hoàn",
+    "level": 1,
+    "prerequisite": [
+      "g7_b01"
+    ],
+    "description": "Cấu tạo hạt nhân (p, n) và electron; số hiệu nguyên tử Z.",
+    "visualization": "atom"
+  },
+  {
+    "id": "g7_b03",
+    "title": "Bài 3. Nguyên tố hóa học",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Nguyên tử. Bảng tuần hoàn",
+    "chapterIndex": 1,
+    "lessonNo": 3,
+    "domain": "Nguyên tử. Bảng tuần hoàn",
+    "level": 1,
+    "prerequisite": [
+      "g7_b02"
+    ],
+    "description": "Nguyên tố là tập hợp các nguyên tử cùng Z; đồng vị, nguyên tử khối.",
+    "visualization": "atom"
+  },
+  {
+    "id": "g7_b04",
+    "title": "Bài 4. Sơ lược bảng tuần hoàn các nguyên tố",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Nguyên tử. Bảng tuần hoàn",
+    "chapterIndex": 1,
+    "lessonNo": 4,
+    "domain": "Nguyên tử. Bảng tuần hoàn",
+    "level": 1,
+    "prerequisite": [
+      "g7_b03"
+    ],
+    "description": "Chu kì, nhóm; xu hướng tính chất theo Z và cấu hình electron lớp ngoài.",
+    "visualization": "periodic"
+  },
+  {
+    "id": "g7_b05",
+    "title": "Bài 5. Phân tử – Đơn chất – Hợp chất",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Phân tử. Liên kết hóa học",
+    "chapterIndex": 2,
+    "lessonNo": 5,
+    "domain": "Phân tử. Liên kết hóa học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b04"
+    ],
+    "description": "Phân biệt nguyên tử, phân tử, đơn chất, hợp chất; công thức hóa học đơn giản.",
+    "visualization": "moleculeTypes"
+  },
+  {
+    "id": "g7_b06",
+    "title": "Bài 6. Giới thiệu liên kết hóa học",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Phân tử. Liên kết hóa học",
+    "chapterIndex": 2,
+    "lessonNo": 6,
+    "domain": "Phân tử. Liên kết hóa học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b05"
+    ],
+    "description": "Liên kết ion và liên kết cộng hóa trị; ví dụ NaCl, H₂O.",
+    "visualization": "bondIntro"
+  },
+  {
+    "id": "g7_b07",
+    "title": "Bài 7. Hóa trị và công thức hóa học",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Phân tử. Liên kết hóa học",
+    "chapterIndex": 2,
+    "lessonNo": 7,
+    "domain": "Phân tử. Liên kết hóa học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b06"
+    ],
+    "description": "Hóa trị, quy tắc viết công thức hợp chất ion và cộng hóa trị cơ bản.",
+    "visualization": "valence"
+  },
+  {
+    "id": "g8_b02",
+    "title": "Bài 2. Phản ứng hóa học",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Phản ứng hóa học",
+    "chapterIndex": 1,
+    "lessonNo": 2,
+    "domain": "Phản ứng hóa học",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Nhận biết PTHH, sản phẩm–chất tham gia; phản ứng hóa hợp, phân hủy, thế, trao đổi.",
+    "visualization": "reaction"
+  },
+  {
+    "id": "g8_b03",
+    "title": "Bài 3. Mol và tỉ khối chất khí",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Phản ứng hóa học",
+    "chapterIndex": 1,
+    "lessonNo": 3,
+    "domain": "Phản ứng hóa học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b02"
+    ],
+    "description": "Mol là đơn vị lượng chất; khối lượng mol, thể tích mol khí ở đktc.",
+    "visualization": "mole"
+  },
+  {
+    "id": "g8_b04",
+    "title": "Bài 4. Dung dịch và nồng độ",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Phản ứng hóa học",
+    "chapterIndex": 1,
+    "lessonNo": 4,
+    "domain": "Phản ứng hóa học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b03"
+    ],
+    "description": "Dung môi, dung dịch; nồng độ C%, nồng độ mol/l.",
+    "visualization": "solution"
+  },
+  {
+    "id": "g8_b05",
+    "title": "Bài 5. Bảo toàn khối lượng và phương trình hóa học",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Phản ứng hóa học",
+    "chapterIndex": 1,
+    "lessonNo": 5,
+    "domain": "Phản ứng hóa học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b04"
+    ],
+    "description": "Định luật bảo toàn khối lượng; cân bằng hệ số trong PTHH.",
+    "visualization": "equationBalance"
+  },
+  {
+    "id": "g8_b06",
+    "title": "Bài 6. Tính theo phương trình hóa học",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Phản ứng hóa học",
+    "chapterIndex": 1,
+    "lessonNo": 6,
+    "domain": "Phản ứng hóa học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b05"
+    ],
+    "description": "Tính khối lượng, thể tích, số mol chất theo tỉ lệ mol trong PTHH.",
+    "visualization": "stoichiometry"
+  },
+  {
+    "id": "g8_b07",
+    "title": "Bài 7. Tốc độ phản ứng và chất xúc tác",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Phản ứng hóa học",
+    "chapterIndex": 1,
+    "lessonNo": 7,
+    "domain": "Phản ứng hóa học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b06"
+    ],
+    "description": "Yếu tố ảnh hưởng tốc độ; vai trò xúc tác (MnO₂ với H₂O₂).",
+    "visualization": "catalyst"
+  },
+  {
+    "id": "g8_b08",
+    "title": "Bài 8. Acid",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Một số hợp chất thông dụng",
+    "chapterIndex": 2,
+    "lessonNo": 8,
+    "domain": "Một số hợp chất thông dụng",
+    "level": 2,
+    "prerequisite": [
+      "g8_b07"
+    ],
+    "description": "Định nghĩa axit Arrhenius; tính chất, ứng dụng axit vô cơ thường gặp.",
+    "visualization": "acid"
+  },
+  {
+    "id": "g8_b09",
+    "title": "Bài 9. Base – thang pH",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Một số hợp chất thông dụng",
+    "chapterIndex": 2,
+    "lessonNo": 9,
+    "domain": "Một số hợp chất thông dụng",
+    "level": 2,
+    "prerequisite": [
+      "g8_b08"
+    ],
+    "description": "Bazơ; thang pH; quan hệ H⁺, OH⁻ và trung hòa.",
+    "visualization": "acidbase"
+  },
+  {
+    "id": "g8_b10",
+    "title": "Bài 10. Oxide",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Một số hợp chất thông dụng",
+    "chapterIndex": 2,
+    "lessonNo": 10,
+    "domain": "Một số hợp chất thông dụng",
+    "level": 2,
+    "prerequisite": [
+      "g8_b09"
+    ],
+    "description": "Oxide axit, oxide bazơ; phản ứng với nước, axit, bazơ.",
+    "visualization": "oxide"
+  },
+  {
+    "id": "g8_b11",
+    "title": "Bài 11. Muối",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Một số hợp chất thông dụng",
+    "chapterIndex": 2,
+    "lessonNo": 11,
+    "domain": "Một số hợp chất thông dụng",
+    "level": 2,
+    "prerequisite": [
+      "g8_b10"
+    ],
+    "description": "Muối; phản ứng trao đổi; điều chế và ứng dụng muối.",
+    "visualization": "salt"
+  },
+  {
+    "id": "g8_b12",
+    "title": "Bài 12. Phân bón hóa học",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Một số hợp chất thông dụng",
+    "chapterIndex": 2,
+    "lessonNo": 12,
+    "domain": "Một số hợp chất thông dụng",
+    "level": 2,
+    "prerequisite": [
+      "g8_b11"
+    ],
+    "description": "Phân bón NPK; vai trò đạm, lân, kali đối với cây trồng.",
+    "visualization": "fertilizer"
+  },
+  {
+    "id": "g9_b18",
+    "title": "Bài 18. Tính chất chung của kim loại",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Kim loại và phi kim",
+    "chapterIndex": 1,
+    "lessonNo": 18,
+    "domain": "Kim loại và phi kim",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Dẫn điện, dẫn nhiệt, có ánh kim; tính chất vật lí–hóa học chung.",
+    "visualization": "metal"
+  },
+  {
+    "id": "g9_b19",
+    "title": "Bài 19. Dãy hoạt động hóa học",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Kim loại và phi kim",
+    "chapterIndex": 1,
+    "lessonNo": 19,
+    "domain": "Kim loại và phi kim",
+    "level": 1,
+    "prerequisite": [
+      "g9_b18"
+    ],
+    "description": "Thứ tự kim loại theo khả năng mất electron; phản ứng thế.",
+    "visualization": "activitySeries"
+  },
+  {
+    "id": "g9_b20",
+    "title": "Bài 20. Tách kim loại và hợp kim",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Kim loại và phi kim",
+    "chapterIndex": 1,
+    "lessonNo": 20,
+    "domain": "Kim loại và phi kim",
+    "level": 1,
+    "prerequisite": [
+      "g9_b19"
+    ],
+    "description": "Luyện kim, tái chế; hợp kim thép, đồng thau và ứng dụng.",
+    "visualization": "alloy"
+  },
+  {
+    "id": "g9_b21",
+    "title": "Bài 21. Phi kim và kim loại",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Kim loại và phi kim",
+    "chapterIndex": 1,
+    "lessonNo": 21,
+    "domain": "Kim loại và phi kim",
+    "level": 1,
+    "prerequisite": [
+      "g9_b20"
+    ],
+    "description": "So sánh tính chất; vai trò phi kim (C, S, P…) trong đời sống.",
+    "visualization": "nonmetal"
+  },
+  {
+    "id": "g9_b22",
+    "title": "Bài 22. Giới thiệu hợp chất hữu cơ",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "chapterIndex": 2,
+    "lessonNo": 22,
+    "domain": "Hữu cơ và hydrocarbon",
+    "level": 1,
+    "prerequisite": [
+      "g9_b21"
+    ],
+    "description": "Hữu cơ chứa C (thường kèm H); công thức, mô hình, nguồn dầu mỏ.",
+    "visualization": "organic"
+  },
+  {
+    "id": "g9_b23",
+    "title": "Bài 23. Alkane",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "chapterIndex": 2,
+    "lessonNo": 23,
+    "domain": "Hữu cơ và hydrocarbon",
+    "level": 1,
+    "prerequisite": [
+      "g9_b22"
+    ],
+    "description": "Ankan no CₙH₂ₙ₊₂; metan, etan; phản ứng cháy.",
+    "visualization": "alkane"
+  },
+  {
+    "id": "g9_b24",
+    "title": "Bài 24. Alkene",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "chapterIndex": 2,
+    "lessonNo": 24,
+    "domain": "Hữu cơ và hydrocarbon",
+    "level": 1,
+    "prerequisite": [
+      "g9_b23"
+    ],
+    "description": "Anken có liên kết đôi C=C; etilen và ứng dụng.",
+    "visualization": "alkene"
+  },
+  {
+    "id": "g9_b25",
+    "title": "Bài 25. Nguồn nhiên liệu",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Hữu cơ và hydrocarbon",
+    "chapterIndex": 2,
+    "lessonNo": 25,
+    "domain": "Hữu cơ và hydrocarbon",
+    "level": 1,
+    "prerequisite": [
+      "g9_b24"
+    ],
+    "description": "Dầu mỏ, than, khí; chế biến và tác động môi trường.",
+    "visualization": "fuels"
+  },
+  {
+    "id": "g9_b26",
+    "title": "Bài 26. Ethylic alcohol",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ethylic alcohol và acetic acid",
+    "chapterIndex": 3,
+    "lessonNo": 26,
+    "domain": "Ethylic alcohol và acetic acid",
+    "level": 2,
+    "prerequisite": [
+      "g9_b25"
+    ],
+    "description": "C₂H₅OH: tính chất, ứng dụng, an toàn khi dùng cồn.",
+    "visualization": "alcohol"
+  },
+  {
+    "id": "g9_b27",
+    "title": "Bài 27. Acetic acid",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ethylic alcohol và acetic acid",
+    "chapterIndex": 3,
+    "lessonNo": 27,
+    "domain": "Ethylic alcohol và acetic acid",
+    "level": 2,
+    "prerequisite": [
+      "g9_b26"
+    ],
+    "description": "CH₃COOH: axit yếu, giấm, este hóa học đơn giản.",
+    "visualization": "acetic"
+  },
+  {
+    "id": "g9_b28",
+    "title": "Bài 28. Lipid",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "chapterIndex": 4,
+    "lessonNo": 28,
+    "domain": "Lipid, carbohydrate, protein, polymer",
+    "level": 2,
+    "prerequisite": [
+      "g9_b27"
+    ],
+    "description": "Chất béo: cấu tạo, vai trò năng lượng và dinh dưỡng.",
+    "visualization": "lipid"
+  },
+  {
+    "id": "g9_b29",
+    "title": "Bài 29. Carbohydrate. Glucose và saccharose",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "chapterIndex": 4,
+    "lessonNo": 29,
+    "domain": "Lipid, carbohydrate, protein, polymer",
+    "level": 2,
+    "prerequisite": [
+      "g9_b28"
+    ],
+    "description": "Glucose C₆H₁₂O₆, saccharose; phản ứng với Cu(OH)₂.",
+    "visualization": "glucose"
+  },
+  {
+    "id": "g9_b30",
+    "title": "Bài 30. Tinh bột và cellulose",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "chapterIndex": 4,
+    "lessonNo": 30,
+    "domain": "Lipid, carbohydrate, protein, polymer",
+    "level": 2,
+    "prerequisite": [
+      "g9_b29"
+    ],
+    "description": "Polime carbohydrate; tinh bột, xenluloz và ứng dụng.",
+    "visualization": "starch"
+  },
+  {
+    "id": "g9_b31",
+    "title": "Bài 31. Protein",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "chapterIndex": 4,
+    "lessonNo": 31,
+    "domain": "Lipid, carbohydrate, protein, polymer",
+    "level": 2,
+    "prerequisite": [
+      "g9_b30"
+    ],
+    "description": "Protein từ amino acid; enzyme và thức ăn giàu đạm.",
+    "visualization": "protein"
+  },
+  {
+    "id": "g9_b32",
+    "title": "Bài 32. Polymer",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Lipid, carbohydrate, protein, polymer",
+    "chapterIndex": 4,
+    "lessonNo": 32,
+    "domain": "Lipid, carbohydrate, protein, polymer",
+    "level": 2,
+    "prerequisite": [
+      "g9_b31"
+    ],
+    "description": "Polime tổng hợp: PVC, PE; tái chế nhựa.",
+    "visualization": "polymer"
+  },
+  {
+    "id": "g9_b33",
+    "title": "Bài 33. Hóa học vỏ Trái Đất",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Khai thác tài nguyên vỏ Trái Đất",
+    "chapterIndex": 5,
+    "lessonNo": 33,
+    "domain": "Khai thác tài nguyên vỏ Trái Đất",
+    "level": 3,
+    "prerequisite": [
+      "g9_b32"
+    ],
+    "description": "Thành phần vỏ Trái Đất; khoáng sản và khai thác có trách nhiệm.",
+    "visualization": "earthCrust"
+  },
+  {
+    "id": "g9_b34",
+    "title": "Bài 34. Đá vôi và công nghiệp silicate",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Khai thác tài nguyên vỏ Trái Đất",
+    "chapterIndex": 5,
+    "lessonNo": 34,
+    "domain": "Khai thác tài nguyên vỏ Trái Đất",
+    "level": 3,
+    "prerequisite": [
+      "g9_b33"
+    ],
+    "description": "CaCO₃, sản xuất xi măng, thủy tinh, gốm sứ.",
+    "visualization": "silicate"
+  },
+  {
+    "id": "g9_b35",
+    "title": "Bài 35. Nhiên liệu hóa thạch và chu trình carbon",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Khai thác tài nguyên vỏ Trái Đất",
+    "chapterIndex": 5,
+    "lessonNo": 35,
+    "domain": "Khai thác tài nguyên vỏ Trái Đất",
+    "level": 3,
+    "prerequisite": [
+      "g9_b34"
+    ],
+    "description": "Khai thác than dầu; chu trình carbon và biến đổi khí hậu.",
+    "visualization": "carbonCycle"
+  }
+]
