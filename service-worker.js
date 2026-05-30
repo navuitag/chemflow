@@ -1,4 +1,4 @@
-const CACHE_NAME = "chemflow-vn-v10";
+const CACHE_NAME = "chemflow-vn-v11";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -32,7 +32,8 @@ const APP_SHELL = [
   "./data/skills.json",
   "./data/lessons.json",
   "./data/questions.json",
-  "./data/errors.json"
+  "./data/errors.json",
+  "./data/exercises.json"
 ];
 
 self.addEventListener("install", (event) => {
