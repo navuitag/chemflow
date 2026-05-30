@@ -16,11 +16,13 @@ export const normalizeChem = (value) =>
     .replace(/[−–—]/g, "-")
     .replace(/\*/g, "")
     .replace(/＝/g, "=")
-    .replace(/₂/g, "2")
-    .replace(/₃/g, "3")
-    .replace(/₄/g, "4")
-    .replace(/₅/g, "5")
-    .replace(/→/g, "->");
+    .replace(/→/g, "->")
+    .replace(/⇌/g, "<=>")
+    .replace(/₀/g, "0").replace(/₁/g, "1").replace(/₂/g, "2").replace(/₃/g, "3")
+    .replace(/₄/g, "4").replace(/₅/g, "5").replace(/₆/g, "6").replace(/₇/g, "7")
+    .replace(/₈/g, "8").replace(/₉/g, "9")
+    .replace(/⁺/g, "+").replace(/⁻/g, "-")
+    .replace(/·/g, "");
 
 export const escapeHtml = (value) =>
   String(value).replace(/[&<>"']/g, (char) => ({
