@@ -11,6 +11,10 @@ export function renderVisualization(config = {}) {
   if (type === "lab") return renderLabViz();
   if (type === "khtn") return renderKhtnViz();
   if (type === "measure") return renderMeasureViz();
+  if (type === "magnifier") return renderMagnifierViz();
+  if (type === "microscope") return renderMicroscopeViz();
+  if (type === "length") return renderLengthViz();
+  if (type === "time") return renderTimeViz();
   if (type === "temperature") return renderTemperatureViz();
   if (type === "substances") return renderSubstancesViz();
   if (type === "oxygen") return renderOxygenViz();
@@ -189,6 +193,46 @@ function renderMeasureViz() {
     <div class="viz measure-viz" aria-label="Đo khối lượng">
       <div class="balance-scale">⚖️ <strong>250 g</strong></div>
       <p>Đơn vị: g, kg · 1 kg = 1000 g</p>
+    </div>
+  `;
+}
+
+function renderMagnifierViz() {
+  return `
+    <div class="viz magnifier-viz" aria-label="Kính lúp">
+      <div class="tool-card"><strong>🔍 Kính lúp</strong><span>Phóng đại vài lần</span></div>
+      <p>Quan sát kết cấu bề mặt muối, đường, lá cây · Đặt mắt cách kính phù hợp</p>
+    </div>
+  `;
+}
+
+function renderMicroscopeViz() {
+  return `
+    <div class="viz microscope-viz" aria-label="Kính hiển vi">
+      <div class="tool-card"><strong>🔬 Kính hiển vi</strong><span>Phóng đại hàng trăm lần</span></div>
+      <p>Làm mẫu mỏng trên lam kính · Điều chỉnh độ sáng và vít tinh/chỉnh</p>
+    </div>
+  `;
+}
+
+function renderLengthViz() {
+  return `
+    <div class="viz length-viz" aria-label="Đo chiều dài">
+      <div class="ruler-bar">
+        <span>0</span><span>10 cm</span><span>20 cm</span><span>30 cm</span>
+      </div>
+      <p>Thước kẻ, thước dây · 1 m = 100 cm = 1000 mm</p>
+    </div>
+  `;
+}
+
+function renderTimeViz() {
+  return `
+    <div class="viz time-viz" aria-label="Đo thời gian">
+      <div class="valence-chips">
+        <span>Đồng hồ</span><span>Bấm giờ</span><span>1 h = 60 phút</span>
+      </div>
+      <p>Đo thời gian phản ứng, sôi, tan · Ghi đơn vị: s, phút, h</p>
     </div>
   `;
 }

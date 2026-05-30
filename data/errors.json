@@ -9,6 +9,33 @@
     "recommendation": "g6_b02"
   },
   {
+    "pattern": "can",
+    "skill": "g6_b03",
+    "errorType": "tool_error",
+    "title": "Nhầm dụng cụ quan sát",
+    "message": "Kính lúp không dùng để cân khối lượng.",
+    "hint": "Kính lúp để phóng đại hình ảnh.",
+    "recommendation": "g6_b03"
+  },
+  {
+    "pattern": "lup",
+    "skill": "g6_b04",
+    "errorType": "tool_error",
+    "title": "Nhầm kính lúp và kính hiển vi",
+    "message": "Kính hiển vi phóng đại mạnh hơn kính lúp.",
+    "hint": "Làm mẫu mỏng trên lam kính.",
+    "recommendation": "g6_b04"
+  },
+  {
+    "pattern": "1000 cm",
+    "skill": "g6_b05",
+    "errorType": "unit_error",
+    "title": "Nhầm đổi m và cm",
+    "message": "1 m = 100 cm, không phải 1000 cm.",
+    "hint": "1 m = 100 cm = 1000 mm.",
+    "recommendation": "g6_b05"
+  },
+  {
     "pattern": "kg",
     "skill": "g6_b06",
     "errorType": "unit_error",
@@ -16,6 +43,15 @@
     "message": "gam và kilogam đều là khối lượng nhưng khác bậc.",
     "hint": "Đổi 1 kg = 1000 g khi cần.",
     "recommendation": "g6_b06"
+  },
+  {
+    "pattern": "3600 phut",
+    "skill": "g6_b07",
+    "errorType": "unit_error",
+    "title": "Nhầm đổi giờ và phút",
+    "message": "1 giờ = 60 phút, không phải 3600 phút.",
+    "hint": "3600 giây = 1 giờ.",
+    "recommendation": "g6_b07"
   },
   {
     "pattern": "0",
@@ -54,6 +90,33 @@
     "recommendation": "g6_b11"
   },
   {
+    "pattern": "go",
+    "skill": "g6_b12",
+    "errorType": "material_error",
+    "title": "Nhầm vật liệu dẫn điện",
+    "message": "Gỗ khô thường cách điện, không như đồng.",
+    "hint": "Kim loại dẫn điện tốt.",
+    "recommendation": "g6_b12"
+  },
+  {
+    "pattern": "oxy",
+    "skill": "g6_b14",
+    "errorType": "fuel_error",
+    "title": "Nhầm nhiên liệu và chất hỗ trợ cháy",
+    "message": "Oxy hỗ trợ cháy, không phải nhiên liệu chính.",
+    "hint": "Nhiên liệu: than, dầu, khí...",
+    "recommendation": "g6_b14"
+  },
+  {
+    "pattern": "tinh bot",
+    "skill": "g6_b15",
+    "errorType": "food_error",
+    "title": "Nhầm thành phần dinh dưỡng",
+    "message": "Trứng giàu protein hơn tinh bột.",
+    "hint": "Gạo nhiều tinh bột; trứng nhiều protein.",
+    "recommendation": "g6_b15"
+  },
+  {
     "pattern": "dong nhat",
     "skill": "g6_b16",
     "errorType": "mixture_error",
@@ -72,12 +135,30 @@
     "recommendation": "g6_b17"
   },
   {
+    "pattern": "ket luan truoc",
+    "skill": "g7_b01",
+    "errorType": "method_error",
+    "title": "Kết luận vội",
+    "message": "Chưa thí nghiệm đã kết luận là sai quy trình KHTN.",
+    "hint": "Quan sát và thí nghiệm trước khi kết luận.",
+    "recommendation": "g7_b01"
+  },
+  {
     "pattern": "electron",
     "skill": "g7_b02",
     "errorType": "particle_error",
     "title": "Nhầm vị trí hạt",
     "message": "Proton ở hạt nhân, electron ở vỏ.",
     "hint": "p⁺ trong nhân, e⁻ ngoài vỏ.",
+    "recommendation": "g7_b02"
+  },
+  {
+    "pattern": "neutron duong",
+    "skill": "g7_b02",
+    "errorType": "particle_error",
+    "title": "Nhầm điện tích hạt",
+    "message": "Neutron trung hòa, proton mang điện dương.",
+    "hint": "Chỉ proton (+) và electron (−).",
     "recommendation": "g7_b02"
   },
   {
@@ -90,12 +171,30 @@
     "recommendation": "g7_b03"
   },
   {
+    "pattern": "proton",
+    "skill": "g7_b03",
+    "errorType": "isotope_error",
+    "title": "Nhầm đồng vị",
+    "message": "Đồng vị khác số neutron, không khác số proton.",
+    "hint": "¹²C và ¹⁴C cùng Z = 6.",
+    "recommendation": "g7_b03"
+  },
+  {
     "pattern": "78",
     "skill": "g7_b04",
     "errorType": "periodic_error",
     "title": "Nhầm % khí với nhóm bảng",
     "message": "78% là N₂ trong không khí, không phải nhóm bảng.",
     "hint": "Nhóm = cột, chu kì = hàng.",
+    "recommendation": "g7_b04"
+  },
+  {
+    "pattern": "cung z",
+    "skill": "g7_b04",
+    "errorType": "periodic_error",
+    "title": "Nhầm chu kì và nhóm",
+    "message": "Cùng chu kì: cùng số lớp e; cùng nhóm: cùng số e lớp ngoài.",
+    "hint": "Na và K cùng nhóm I A.",
     "recommendation": "g7_b04"
   },
   {
@@ -108,12 +207,30 @@
     "recommendation": "g7_b05"
   },
   {
+    "pattern": "h2o",
+    "skill": "g7_b05",
+    "errorType": "substance_class",
+    "title": "Nhầm H₂O với đơn chất",
+    "message": "H₂O gồm H và O → hợp chất.",
+    "hint": "Đơn chất chỉ một nguyên tố.",
+    "recommendation": "g7_b05"
+  },
+  {
     "pattern": "nacl2",
     "skill": "g7_b06",
     "errorType": "formula_error",
     "title": "Công thức ion sai",
     "message": "NaCl không có chỉ số 2 sau Cl.",
     "hint": "Hóa trị Na(I) và Cl(I) triệt tiêu.",
+    "recommendation": "g7_b06"
+  },
+  {
+    "pattern": "ion h2o",
+    "skill": "g7_b06",
+    "errorType": "bond_error",
+    "title": "Nhầm liên kết trong H₂O",
+    "message": "H₂O có liên kết cộng hóa trị, không phải ion rời.",
+    "hint": "O và H dùng chung electron.",
     "recommendation": "g7_b06"
   },
   {
@@ -126,12 +243,48 @@
     "recommendation": "g7_b07"
   },
   {
+    "pattern": "o3",
+    "skill": "g7_b07",
+    "errorType": "valence_error",
+    "title": "Hóa trị oxi sai",
+    "message": "Oxi thường hóa trị II (trừ một số trường hợp đặc biệt lớp trên).",
+    "hint": "O thường là II trong oxit.",
+    "recommendation": "g7_b07"
+  },
+  {
+    "pattern": "nem",
+    "skill": "g8_b01",
+    "errorType": "safety_error",
+    "title": "Nếm hóa chất",
+    "message": "Không bao giờ nếm hóa chất trong lab.",
+    "hint": "Đọc nhãn, dùng chỉ báo.",
+    "recommendation": "g8_b01"
+  },
+  {
+    "pattern": "phan huy",
+    "skill": "g8_b02",
+    "errorType": "reaction_error",
+    "title": "Nhầm loại phản ứng",
+    "message": "2H₂ + O₂ → 2H₂O là hóa hợp, không phải phân hủy.",
+    "hint": "Hóa hợp: nhiều → một.",
+    "recommendation": "g8_b02"
+  },
+  {
     "pattern": "16",
     "skill": "g8_b03",
     "errorType": "molar_mass_error",
     "title": "Nhầm khối lượng mol H2O",
     "message": "H2O: M ≈ 18, không phải 16.",
     "hint": "Cộng khối lượng nguyên tử trong công thức.",
+    "recommendation": "g8_b03"
+  },
+  {
+    "pattern": "m/m",
+    "skill": "g8_b03",
+    "errorType": "formula_error",
+    "title": "Nhầm công thức mol",
+    "message": "n = m/M, không phải m/M².",
+    "hint": "Mol = khối lượng / khối lượng mol.",
     "recommendation": "g8_b03"
   },
   {
@@ -144,12 +297,30 @@
     "recommendation": "g8_b04"
   },
   {
+    "pattern": "nuoc vao axit",
+    "skill": "g8_b04",
+    "errorType": "safety_error",
+    "title": "Pha loãng sai",
+    "message": "Không đổ nước vào axit đặc.",
+    "hint": "Axit chậm vào nước.",
+    "recommendation": "g8_b04"
+  },
+  {
     "pattern": "h2o",
     "skill": "g8_b05",
     "errorType": "E002",
     "title": "Chưa cân đủ H hoặc O",
     "message": "Đếm nguyên tử hai vế sau khi đặt hệ số.",
     "hint": "Cân O sau khi cân H.",
+    "recommendation": "g8_b05"
+  },
+  {
+    "pattern": "1",
+    "skill": "g8_b05",
+    "errorType": "balance_error",
+    "title": "Hệ số H2O sai",
+    "message": "H₂ + O₂ → 2H₂O cần hệ số 2 trước H₂O.",
+    "hint": "Cân nguyên tử O trước.",
     "recommendation": "g8_b05"
   },
   {
@@ -160,6 +331,24 @@
     "message": "2H2 + O2 → 2H2O có tỉ mol 2:1:2.",
     "hint": "Dùng hệ số làm tỉ mol.",
     "recommendation": "g8_b06"
+  },
+  {
+    "pattern": "18",
+    "skill": "g8_b06",
+    "errorType": "stoich_error",
+    "title": "Nhầm 1 mol và 2 mol H2O",
+    "message": "2 mol H2O = 36 g, không phải 18 g.",
+    "hint": "m = n × M.",
+    "recommendation": "g8_b06"
+  },
+  {
+    "pattern": "cham",
+    "skill": "g8_b07",
+    "errorType": "rate_error",
+    "title": "Nhầm yếu tố tốc độ",
+    "message": "Giảm nhiệt độ thường làm chậm phản ứng.",
+    "hint": "Tăng T, nồng độ, tiếp xúc → nhanh hơn.",
+    "recommendation": "g8_b07"
   },
   {
     "pattern": "7",
@@ -198,6 +387,24 @@
     "recommendation": "g8_b11"
   },
   {
+    "pattern": "p",
+    "skill": "g8_b12",
+    "errorType": "fertilizer_error",
+    "title": "Nhầm ký hiệu NPK",
+    "message": "N = đạm (nitơ), P = lân, K = kali.",
+    "hint": "Đọc bảng thành phần trên bao.",
+    "recommendation": "g8_b12"
+  },
+  {
+    "pattern": "au",
+    "skill": "g9_b18",
+    "errorType": "metal_error",
+    "title": "Nhầm tính chất kim loại",
+    "message": "Vàng (Au) ít phản ứng với O2 ở điều kiện thường.",
+    "hint": "Một số KL bền với không khí.",
+    "recommendation": "g9_b18"
+  },
+  {
     "pattern": "cu truoc",
     "skill": "g9_b19",
     "errorType": "activity_error",
@@ -205,6 +412,33 @@
     "message": "Kim loại đứng trước mới thế kim loại đứng sau.",
     "hint": "Zn trước Cu, Fe trước Cu…",
     "recommendation": "g9_b19"
+  },
+  {
+    "pattern": "k",
+    "skill": "g9_b19",
+    "errorType": "activity_error",
+    "title": "Thí nghiệm K, Na nguy hiểm",
+    "message": "K, Na phản ứng mạnh với nước — không tự thí nghiệm.",
+    "hint": "Dùng mô hình, video SGK.",
+    "recommendation": "g9_b19"
+  },
+  {
+    "pattern": "cu va c",
+    "skill": "g9_b20",
+    "errorType": "alloy_error",
+    "title": "Nhầm thành phần hợp kim",
+    "message": "Thép là Fe + C, không phải Cu + C.",
+    "hint": "Đồng thau: Cu + Zn.",
+    "recommendation": "g9_b20"
+  },
+  {
+    "pattern": "cu",
+    "skill": "g9_b21",
+    "errorType": "nonmetal_error",
+    "title": "Nhầm phi kim và kim loại",
+    "message": "Đồng Cu là kim loại, lưu huỳnh S là phi kim.",
+    "hint": "KL: dẫn điện, ánh kim.",
+    "recommendation": "g9_b21"
   },
   {
     "pattern": "co2",
@@ -225,6 +459,33 @@
     "recommendation": "g9_b23"
   },
   {
+    "pattern": "ch3",
+    "skill": "g9_b23",
+    "errorType": "formula_error",
+    "title": "Sai công thức metan",
+    "message": "Metan là CH4, không phải CH3.",
+    "hint": "Ankan đơn giản nhất.",
+    "recommendation": "g9_b23"
+  },
+  {
+    "pattern": "cnh2n+2",
+    "skill": "g9_b24",
+    "errorType": "alkene_error",
+    "title": "Nhầm công thức anken",
+    "message": "Anken CnH2n, không phải CnH2n+2.",
+    "hint": "C2H4 là etilen.",
+    "recommendation": "g9_b24"
+  },
+  {
+    "pattern": "nuoc",
+    "skill": "g9_b25",
+    "errorType": "fuel_error",
+    "title": "Nhầm nhiên liệu",
+    "message": "Nước không phải nhiên liệu hóa thạch.",
+    "hint": "Than, dầu, khí.",
+    "recommendation": "g9_b25"
+  },
+  {
     "pattern": "ch3cooh",
     "skill": "g9_b26",
     "errorType": "alcohol_error",
@@ -232,6 +493,15 @@
     "message": "C2H5OH là cồn, CH3COOH là axit axetic.",
     "hint": "Đọc đúng nhóm chức.",
     "recommendation": "g9_b26"
+  },
+  {
+    "pattern": "hcl",
+    "skill": "g9_b27",
+    "errorType": "acid_error",
+    "title": "Nhầm axit axetic và HCl",
+    "message": "Giấm là CH3COOH yếu, không phải HCl mạnh.",
+    "hint": "Axit yếu trong thực phẩm.",
+    "recommendation": "g9_b27"
   },
   {
     "pattern": "c12h22o11",
@@ -243,6 +513,33 @@
     "recommendation": "g9_b29"
   },
   {
+    "pattern": "c6h12o6",
+    "skill": "g9_b29",
+    "errorType": "sugar_error",
+    "title": "Nhầm saccharose với glucose",
+    "message": "Đường ăn saccharose là C12H22O11.",
+    "hint": "Glucose là đường đơn.",
+    "recommendation": "g9_b29"
+  },
+  {
+    "pattern": "protein",
+    "skill": "g9_b30",
+    "errorType": "starch_error",
+    "title": "Nhầm tinh bột và protein",
+    "message": "Tinh bột là polime glucose, không phải protein.",
+    "hint": "Iodine với tinh bột.",
+    "recommendation": "g9_b30"
+  },
+  {
+    "pattern": "glucose",
+    "skill": "g9_b31",
+    "errorType": "protein_error",
+    "title": "Nhầm protein và carbohydrate",
+    "message": "Protein từ amino acid, không phải glucose.",
+    "hint": "Enzyme là protein.",
+    "recommendation": "g9_b31"
+  },
+  {
     "pattern": "fe",
     "skill": "g9_b32",
     "errorType": "polymer_error",
@@ -250,5 +547,32 @@
     "message": "PVC, PE là polime; Fe là kim loại.",
     "hint": "Nhựa ≠ kim loại.",
     "recommendation": "g9_b32"
+  },
+  {
+    "pattern": "vang",
+    "skill": "g9_b33",
+    "errorType": "resource_error",
+    "title": "Nhầm thành phần vỏ Trái Đất",
+    "message": "Vỏ Trái Đất chủ yếu O, Si, Al, Fe… không phải vàng nguyên chất.",
+    "hint": "Silicate, oxide.",
+    "recommendation": "g9_b33"
+  },
+  {
+    "pattern": "nacl",
+    "skill": "g9_b34",
+    "errorType": "limestone_error",
+    "title": "Nhầm đá vôi",
+    "message": "Đá vôi là CaCO3, không phải NaCl.",
+    "hint": "CaCO3 + HCl → CO2.",
+    "recommendation": "g9_b34"
+  },
+  {
+    "pattern": "o2",
+    "skill": "g9_b35",
+    "errorType": "carbon_error",
+    "title": "Nhầm chu trình carbon",
+    "message": "Chu trình carbon xoay quanh CO2, không phải tăng O2 vô hạn.",
+    "hint": "CO2 ↔ sinh khối ↔ nhiên liệu.",
+    "recommendation": "g9_b35"
   }
 ]

@@ -30,6 +30,54 @@
     "visualization": "lab"
   },
   {
+    "id": "g6_b03",
+    "title": "Bài 3. Sử dụng kính lúp",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 3,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [
+      "g6_b02"
+    ],
+    "description": "Dùng kính lúp quan sát mẫu vật nhỏ trong thí nghiệm Hóa – Sinh.",
+    "visualization": "magnifier"
+  },
+  {
+    "id": "g6_b04",
+    "title": "Bài 4. Sử dụng kính hiển vi quang học",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 4,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [
+      "g6_b03"
+    ],
+    "description": "Quan sát cấu trúc vi mô bằng kính hiển vi; làm mẫu và điều chỉnh độ phóng đại.",
+    "visualization": "microscope"
+  },
+  {
+    "id": "g6_b05",
+    "title": "Bài 5. Đo chiều dài",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 5,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [
+      "g6_b04"
+    ],
+    "description": "Dùng thước kẻ, thước dây; đơn vị m, cm, mm và đọc số liệu.",
+    "visualization": "length"
+  },
+  {
     "id": "g6_b06",
     "title": "Bài 6. Đo khối lượng",
     "grade": 6,
@@ -40,10 +88,26 @@
     "domain": "Mở đầu về Khoa học tự nhiên",
     "level": 1,
     "prerequisite": [
-      "g6_b02"
+      "g6_b05"
     ],
     "description": "Dùng cân, đơn vị gam và kilogam khi đo chất trong thí nghiệm.",
     "visualization": "measure"
+  },
+  {
+    "id": "g6_b07",
+    "title": "Bài 7. Đo thời gian",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 7,
+    "domain": "Mở đầu về Khoa học tự nhiên",
+    "level": 1,
+    "prerequisite": [
+      "g6_b06"
+    ],
+    "description": "Dùng đồng hồ, bấm giờ đo thời gian phản ứng và quá trình biến đổi chất.",
+    "visualization": "time"
   },
   {
     "id": "g6_b08",
@@ -56,9 +120,9 @@
     "domain": "Mở đầu về Khoa học tự nhiên",
     "level": 1,
     "prerequisite": [
-      "g6_b06"
+      "g6_b07"
     ],
-    "description": "Đọc nhiệt kế, đổi độ C và liên hệ với chuyển thể chất.",
+    "description": "Đọc nhiệt kế, độ C và liên hệ với chuyển thể chất.",
     "visualization": "temperature"
   },
   {
@@ -224,11 +288,11 @@
     "title": "Bài 2. Nguyên tử",
     "grade": 7,
     "book": "Kết nối tri thức",
-    "chapter": "Nguyên tử. Bảng tuần hoàn",
-    "chapterIndex": 1,
+    "chapter": "Nguyên tử. Sơ lược về bảng tuần hoàn các nguyên tố hóa học",
+    "chapterIndex": 2,
     "lessonNo": 2,
-    "domain": "Nguyên tử. Bảng tuần hoàn",
-    "level": 1,
+    "domain": "Nguyên tử. Sơ lược về bảng tuần hoàn các nguyên tố hóa học",
+    "level": 2,
     "prerequisite": [
       "g7_b01"
     ],
@@ -240,11 +304,11 @@
     "title": "Bài 3. Nguyên tố hóa học",
     "grade": 7,
     "book": "Kết nối tri thức",
-    "chapter": "Nguyên tử. Bảng tuần hoàn",
-    "chapterIndex": 1,
+    "chapter": "Nguyên tử. Sơ lược về bảng tuần hoàn các nguyên tố hóa học",
+    "chapterIndex": 2,
     "lessonNo": 3,
-    "domain": "Nguyên tử. Bảng tuần hoàn",
-    "level": 1,
+    "domain": "Nguyên tử. Sơ lược về bảng tuần hoàn các nguyên tố hóa học",
+    "level": 2,
     "prerequisite": [
       "g7_b02"
     ],
@@ -256,11 +320,11 @@
     "title": "Bài 4. Sơ lược bảng tuần hoàn các nguyên tố",
     "grade": 7,
     "book": "Kết nối tri thức",
-    "chapter": "Nguyên tử. Bảng tuần hoàn",
-    "chapterIndex": 1,
+    "chapter": "Nguyên tử. Sơ lược về bảng tuần hoàn các nguyên tố hóa học",
+    "chapterIndex": 2,
     "lessonNo": 4,
-    "domain": "Nguyên tử. Bảng tuần hoàn",
-    "level": 1,
+    "domain": "Nguyên tử. Sơ lược về bảng tuần hoàn các nguyên tố hóa học",
+    "level": 2,
     "prerequisite": [
       "g7_b03"
     ],
@@ -273,10 +337,10 @@
     "grade": 7,
     "book": "Kết nối tri thức",
     "chapter": "Phân tử. Liên kết hóa học",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 5,
     "domain": "Phân tử. Liên kết hóa học",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g7_b04"
     ],
@@ -289,10 +353,10 @@
     "grade": 7,
     "book": "Kết nối tri thức",
     "chapter": "Phân tử. Liên kết hóa học",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 6,
     "domain": "Phân tử. Liên kết hóa học",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g7_b05"
     ],
@@ -305,10 +369,10 @@
     "grade": 7,
     "book": "Kết nối tri thức",
     "chapter": "Phân tử. Liên kết hóa học",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 7,
     "domain": "Phân tử. Liên kết hóa học",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g7_b06"
     ],
@@ -316,16 +380,32 @@
     "visualization": "valence"
   },
   {
+    "id": "g8_b01",
+    "title": "Bài 1. Sử dụng hóa chất và thiết bị phòng thí nghiệm",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu KHTN 8",
+    "chapterIndex": 1,
+    "lessonNo": 1,
+    "domain": "Mở đầu KHTN 8",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Nhận biết và sử dụng an toàn một số dụng cụ, hóa chất cơ bản trong lab Hóa.",
+    "visualization": "lab"
+  },
+  {
     "id": "g8_b02",
     "title": "Bài 2. Phản ứng hóa học",
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Phản ứng hóa học",
-    "chapterIndex": 1,
+    "chapterIndex": 2,
     "lessonNo": 2,
     "domain": "Phản ứng hóa học",
-    "level": 1,
-    "prerequisite": [],
+    "level": 2,
+    "prerequisite": [
+      "g8_b01"
+    ],
     "description": "Nhận biết PTHH, sản phẩm–chất tham gia; phản ứng hóa hợp, phân hủy, thế, trao đổi.",
     "visualization": "reaction"
   },
@@ -335,10 +415,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Phản ứng hóa học",
-    "chapterIndex": 1,
+    "chapterIndex": 2,
     "lessonNo": 3,
     "domain": "Phản ứng hóa học",
-    "level": 1,
+    "level": 2,
     "prerequisite": [
       "g8_b02"
     ],
@@ -351,10 +431,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Phản ứng hóa học",
-    "chapterIndex": 1,
+    "chapterIndex": 2,
     "lessonNo": 4,
     "domain": "Phản ứng hóa học",
-    "level": 1,
+    "level": 2,
     "prerequisite": [
       "g8_b03"
     ],
@@ -367,10 +447,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Phản ứng hóa học",
-    "chapterIndex": 1,
+    "chapterIndex": 2,
     "lessonNo": 5,
     "domain": "Phản ứng hóa học",
-    "level": 1,
+    "level": 2,
     "prerequisite": [
       "g8_b04"
     ],
@@ -383,10 +463,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Phản ứng hóa học",
-    "chapterIndex": 1,
+    "chapterIndex": 2,
     "lessonNo": 6,
     "domain": "Phản ứng hóa học",
-    "level": 1,
+    "level": 2,
     "prerequisite": [
       "g8_b05"
     ],
@@ -399,10 +479,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Phản ứng hóa học",
-    "chapterIndex": 1,
+    "chapterIndex": 2,
     "lessonNo": 7,
     "domain": "Phản ứng hóa học",
-    "level": 1,
+    "level": 2,
     "prerequisite": [
       "g8_b06"
     ],
@@ -415,10 +495,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Một số hợp chất thông dụng",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 8,
     "domain": "Một số hợp chất thông dụng",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g8_b07"
     ],
@@ -431,10 +511,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Một số hợp chất thông dụng",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 9,
     "domain": "Một số hợp chất thông dụng",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g8_b08"
     ],
@@ -447,10 +527,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Một số hợp chất thông dụng",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 10,
     "domain": "Một số hợp chất thông dụng",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g8_b09"
     ],
@@ -463,10 +543,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Một số hợp chất thông dụng",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 11,
     "domain": "Một số hợp chất thông dụng",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g8_b10"
     ],
@@ -479,10 +559,10 @@
     "grade": 8,
     "book": "Kết nối tri thức",
     "chapter": "Một số hợp chất thông dụng",
-    "chapterIndex": 2,
+    "chapterIndex": 3,
     "lessonNo": 12,
     "domain": "Một số hợp chất thông dụng",
-    "level": 2,
+    "level": 3,
     "prerequisite": [
       "g8_b11"
     ],
@@ -500,7 +580,7 @@
     "domain": "Kim loại và phi kim",
     "level": 1,
     "prerequisite": [],
-    "description": "Dẫn điện, dẫn nhiệt, có ánh kim; tính chất vật lí–hóa học chung.",
+    "description": "Dẫn điện, dẫn nhiệt, dẻo, ánh kim; tác dụng với phi kim, nước, axit, muối.",
     "visualization": "metal"
   },
   {
@@ -516,12 +596,12 @@
     "prerequisite": [
       "g9_b18"
     ],
-    "description": "Thứ tự kim loại theo khả năng mất electron; phản ứng thế.",
+    "description": "Thứ tự kim loại theo khả năng mất electron; phản ứng thế với dung dịch muối.",
     "visualization": "activitySeries"
   },
   {
     "id": "g9_b20",
-    "title": "Bài 20. Tách kim loại và hợp kim",
+    "title": "Bài 20. Tách kim loại và việc sử dụng hợp kim",
     "grade": 9,
     "book": "Kết nối tri thức",
     "chapter": "Kim loại và phi kim",
@@ -537,7 +617,7 @@
   },
   {
     "id": "g9_b21",
-    "title": "Bài 21. Phi kim và kim loại",
+    "title": "Bài 21. Sự khác nhau cơ bản giữa phi kim và kim loại",
     "grade": 9,
     "book": "Kết nối tri thức",
     "chapter": "Kim loại và phi kim",
@@ -548,7 +628,7 @@
     "prerequisite": [
       "g9_b20"
     ],
-    "description": "So sánh tính chất; vai trò phi kim (C, S, P…) trong đời sống.",
+    "description": "So sánh tính chất; vai trò phi kim (C, S, P…) và kim loại trong đời sống.",
     "visualization": "nonmetal"
   },
   {
@@ -580,7 +660,7 @@
     "prerequisite": [
       "g9_b22"
     ],
-    "description": "Ankan no CₙH₂ₙ₊₂; metan, etan; phản ứng cháy.",
+    "description": "Ankan CₙH₂ₙ₊₂; metan, etan; phản ứng cháy.",
     "visualization": "alkane"
   },
   {
@@ -644,7 +724,7 @@
     "prerequisite": [
       "g9_b26"
     ],
-    "description": "CH₃COOH: axit yếu, giấm, este hóa học đơn giản.",
+    "description": "CH₃COOH: axit yếu, giấm, phản ứng với bazơ.",
     "visualization": "acetic"
   },
   {
@@ -676,7 +756,7 @@
     "prerequisite": [
       "g9_b28"
     ],
-    "description": "Glucose C₆H₁₂O₆, saccharose; phản ứng với Cu(OH)₂.",
+    "description": "Glucose C₆H₁₂O₆, saccharose; phản ứng đặc trưng với Cu(OH)₂.",
     "visualization": "glucose"
   },
   {

@@ -1296,3 +1296,47 @@
   padding: 18px;
   text-align: center;
 }
+
+.magnifier-viz,
+.microscope-viz,
+.length-viz,
+.time-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.tool-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+.tool-card strong {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.tool-card span {
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.ruler-bar {
+  background: linear-gradient(90deg, #fff 0%, #fff 9%, var(--line) 9%, var(--line) 10%);
+  background-size: 10% 100%;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 12px;
+  max-width: 360px;
+  padding: 8px 12px;
+}
