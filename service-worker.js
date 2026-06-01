@@ -1,4 +1,4 @@
-const CACHE_NAME = "chemflow-vn-v12";
+const CACHE_NAME = "chemflow-vn-v13";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -12,6 +12,7 @@ const APP_SHELL = [
   "./assets/js/app.js",
   "./assets/js/router.js",
   "./assets/js/state.js",
+  "./assets/js/profileStore.js",
   "./assets/js/utils.js",
   "./assets/js/chemFormat.js",
   "./vendor/three.module.min.js",
@@ -26,6 +27,7 @@ const APP_SHELL = [
   "./modules/progress.js",
   "./modules/gamification.js",
   "./components/navbar.js",
+  "./components/learnerSwitcher.js",
   "./components/lessonCard.js",
   "./components/quizCard.js",
   "./components/flashcardPanel.js",

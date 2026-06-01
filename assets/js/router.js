@@ -1,7 +1,21 @@
-import { getState, resetProgress, setSelectedGrade, completeOnboarding, restartOnboarding, updateState } from "./state.js";
+import {
+  getState,
+  getProfiles,
+  resetProgress,
+  setSelectedGrade,
+  completeOnboarding,
+  restartOnboarding,
+  updateState,
+  createProfile,
+  switchProfile,
+  renameProfile,
+  deleteProfile,
+  hasProfiles
+} from "./state.js";
 import { setRoute, escapeHtml } from "./utils.js";
 import { formatChemHtml } from "./chemFormat.js";
 import { renderNavbar, renderBottomNav } from "../../components/navbar.js";
+import { bindLearnerSwitcher, renderAddLearnerForm, renderLearnerList } from "../../components/learnerSwitcher.js";
 import { renderLessonCard } from "../../components/lessonCard.js";
 import { renderQuizCard } from "../../components/quizCard.js";
 import { renderFlashcardPanel } from "../../components/flashcardPanel.js";
@@ -108,6 +122,14 @@ export function renderRoute() {
 }
 
 function bindNavbar() {
+  bindLearnerSwitcher({
+    onSwitch: (profileId) => {
+      switchProfile(profileId);
+      renderRoute();
+    },
+    onAdd: () => setRoute("#/profile")
+  });
+
   const select = document.querySelector("#gradeSelect");
   if (!select) return;
   select.addEventListener("change", () => {
@@ -118,11 +140,12 @@ function bindNavbar() {
 
 function renderOnboarding(state) {
   const grades = availableGrades();
+  const isNewAccount = !hasProfiles();
   const cards = grades.map((grade) => {
     const count = data.skills.filter((skill) => skill.grade === grade).length;
     const chapters = new Set(data.skills.filter((skill) => skill.grade === grade).map((skill) => skill.chapterIndex)).size;
     return `
-      <button class="grade-pick" data-grade="${grade}">
+      <button class="grade-pick" data-grade="${grade}" type="button">
         <span class="grade-pick-num">Lớp ${grade}</span>
         <span class="grade-pick-meta">${chapters} chương · ${count} bài</span>
       </button>
@@ -134,8 +157,15 @@ function renderOnboarding(state) {
       <section class="onboarding-card">
         <span class="brand-mark">C</span>
         <span class="eyebrow">Chào mừng đến ChemFlow VN</span>
-        <h1>Bạn đang học lớp mấy?</h1>
-        <p>Chọn lớp để mở đúng lộ trình Hóa THCS. Bạn có thể đổi lớp bất cứ lúc nào trên thanh điều hướng.</p>
+        <h1>${isNewAccount ? "Ai sẽ học hôm nay?" : "Bạn đang học lớp mấy?"}</h1>
+        <p>${isNewAccount
+    ? "Nhập tên người học và chọn lớp. Mỗi người có tiến độ riêng — phù hợp khi nhiều em cùng dùng một máy."
+    : "Chọn lớp để mở đúng lộ trình Hóa THCS. Bạn có thể đổi lớp bất cứ lúc nào trên thanh điều hướng."}</p>
+        ${isNewAccount ? `
+          <label class="onboarding-name">
+            <span>Tên người học</span>
+            <input type="text" id="onboardingName" maxlength="40" placeholder="Ví dụ: Minh, Lan..." value="${escapeHtml(state.user.name === "Bạn học nhỏ" ? "" : state.user.name)}" required>
+          </label>` : ""}
         <div class="grade-pick-grid">
           ${cards}
         </div>
@@ -147,7 +177,20 @@ function renderOnboarding(state) {
 function bindOnboarding() {
   document.querySelectorAll(".grade-pick").forEach((button) => {
     button.addEventListener("click", () => {
-      completeOnboarding(Number(button.dataset.grade));
+      const grade = Number(button.dataset.grade);
+      const nameInput = document.querySelector("#onboardingName");
+      const name = nameInput?.value?.trim();
+
+      if (nameInput && !name) {
+        nameInput.focus();
+        return;
+      }
+
+      if (!hasProfiles()) {
+        createProfile(name || "Bạn học nhỏ");
+      }
+
+      completeOnboarding(grade, name);
       if (window.location.hash === "#/home") {
         renderRoute();
       } else {
@@ -172,7 +215,7 @@ function renderHome(state) {
   return `
     <section class="hero-panel">
       <div>
-        <span class="eyebrow">Lộ trình hôm nay · Lớp ${activeGrade}</span>
+        <span class="eyebrow">Lộ trình hôm nay · ${escapeHtml(state.user.name)} · Lớp ${activeGrade}</span>
         <h1>Học Hóa mỗi ngày, hiểu rõ từng lỗi sai.</h1>
         <p>Hoàn thành một bài ngắn, luyện vài câu và xem ngay vì sao phương trình hoặc mô hình chưa đúng.</p>
         <div class="hero-actions">
@@ -396,10 +439,12 @@ function renderErrors(state) {
 
 function renderProfile(state) {
   const summary = getGamificationSummary(state);
+  const profiles = getProfiles();
+
   return `
     <section class="page-title">
       <span class="eyebrow">Hồ sơ</span>
-      <h1>${state.user.name}</h1>
+      <h1>${escapeHtml(state.user.name)}</h1>
       <p>Đang học Lớp ${resolveGrade(state)} · Level ${summary.level} · ${state.xp} XP</p>
     </section>
     <section class="profile-grid">
@@ -420,9 +465,21 @@ function renderProfile(state) {
         <button class="btn secondary" id="changeGrade">Đổi lớp</button>
       </article>
       <article>
-        <h2>Dữ liệu học tập</h2>
-        <button class="btn danger" id="resetProgress">Xóa tiến độ local</button>
+        <h2>Dữ liệu người học này</h2>
+        <p>Xóa tiến độ chỉ ảnh hưởng hồ sơ <strong>${escapeHtml(state.user.name)}</strong>, không ảnh hưởng người học khác.</p>
+        <button class="btn danger" id="resetProgress">Xóa tiến độ người này</button>
       </article>
+    </section>
+    <section class="section-head">
+      <h2>Người học trên máy này</h2>
+      <p>Mỗi người có XP, bài hoàn thành và lỗi sai riêng.</p>
+    </section>
+    <div class="learner-list">
+      ${renderLearnerList(state, profiles)}
+    </div>
+    <section class="add-learner-panel">
+      <h2>Thêm người học mới</h2>
+      ${renderAddLearnerForm()}
     </section>
   `;
 }
@@ -431,6 +488,7 @@ function bindProfile() {
   const reset = document.querySelector("#resetProgress");
   if (reset) {
     reset.addEventListener("click", () => {
+      if (!window.confirm(`Xóa toàn bộ tiến độ của ${getState().user.name}?`)) return;
       resetProgress();
       setRoute("#/home");
     });
@@ -443,6 +501,43 @@ function bindProfile() {
       renderRoute();
     });
   }
+
+  document.querySelectorAll("[data-switch-profile]").forEach((button) => {
+    button.addEventListener("click", () => {
+      switchProfile(button.dataset.switchProfile);
+      renderRoute();
+    });
+  });
+
+  document.querySelectorAll("[data-rename-profile]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const profile = getProfiles().find((item) => item.id === button.dataset.renameProfile);
+      if (!profile) return;
+      const nextName = window.prompt("Tên mới:", profile.name);
+      if (!nextName?.trim()) return;
+      renameProfile(profile.id, nextName.trim());
+      renderRoute();
+    });
+  });
+
+  document.querySelectorAll("[data-delete-profile]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const profile = getProfiles().find((item) => item.id === button.dataset.deleteProfile);
+      if (!profile) return;
+      if (!window.confirm(`Xóa hồ sơ "${profile.name}" và toàn bộ tiến độ?`)) return;
+      deleteProfile(profile.id);
+      renderRoute();
+    });
+  });
+
+  document.querySelector("#addLearnerForm")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const name = new FormData(event.target).get("name")?.toString().trim();
+    if (!name) return;
+    createProfile(name);
+    restartOnboarding();
+    renderRoute();
+  });
 }
 
 function labelSkill(id) {
