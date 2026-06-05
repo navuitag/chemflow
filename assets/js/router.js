@@ -27,7 +27,7 @@ import { completeLesson } from "../../modules/lessonEngine.js";
 import { submitAnswer } from "../../modules/quizEngine.js";
 import { getGamificationSummary } from "../../modules/gamification.js";
 import { getOverallAccuracy, getSkillProgress, getWeakSkills } from "../../modules/progress.js";
-import { createMindMapModule } from "../../modules/mindMap.js";
+import { chapterMindMapHref, createMindMapModule } from "../../modules/mindMap.js";
 
 const MINDMAP_CONFIG = {
   subject: "Hóa học",
@@ -326,7 +326,7 @@ function renderSkills(state) {
       <header class="chapter-head">
         <span class="tag">Chương ${group.chapterIndex} · ${group.book}</span>
         <h2>${group.chapter}</h2>
-        <a class="chapter-mm-link" href="${mindMap.chapterMindMapHref(group.items[0], mindMapGroupMode)}">🧠 Sơ đồ chủ đề</a>
+        <a class="chapter-mm-link" href="${chapterMindMapHref(group.items[0], mindMapGroupMode)}">🧠 Sơ đồ chủ đề</a>
       </header>
       <div class="skill-path">
         ${group.items.map((skill) => renderLessonCard(skill, state, data.questions)).join("")}
