@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ChemFlow">
+  <rect width="512" height="512" rx="96" fill="#7c3aed"/>
+  <path d="M196 360h120" stroke="white" stroke-width="14" stroke-linecap="round"/>
+      <path d="M220 360V210l36-70 36 70v150" fill="none" stroke="white" stroke-width="16" stroke-linejoin="round"/>
+      <path d="M256 140c-24 0-44 18-44 40h88c0-22-20-40-44-40z" fill="white"/>
+      <circle cx="236" cy="250" r="10" fill="white" opacity="0.85"/>
+      <circle cx="276" cy="280" r="8" fill="white" opacity="0.7"/>
+      <circle cx="252" cy="310" r="7" fill="white" opacity="0.6"/>
+</svg>
