@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Chuyên đề Hóa học",
+    "subtitle": "14 sơ đồ chuyên đề — xem trực tiếp trên hệ thống",
+    "topicCount": 14,
+    "source": "Bộ tài liệu chuyên đề trong thư mục special-topic/"
+  },
+  "overviews": [],
+  "categories": [
+    {
+      "id": "basics",
+      "title": "Cơ bản",
+      "emoji": "🧪"
+    },
+    {
+      "id": "reactions",
+      "title": "Phản ứng & hợp chất",
+      "emoji": "⚗️"
+    },
+    {
+      "id": "materials",
+      "title": "Vật chất",
+      "emoji": "🔬"
+    },
+    {
+      "id": "applied",
+      "title": "Vận dụng",
+      "emoji": "📊"
+    }
+  ],
+  "topics": [
+    {
+      "id": "cd01",
+      "order": 1,
+      "code": "CD01",
+      "title": "Chất, nguyên tử, phân tử",
+      "slug": "Chat-Nguyen-tu-Phan-tu",
+      "category": "basics",
+      "categoryTitle": "Cơ bản",
+      "pdf": null,
+      "image": "special-topic/01.Chat-Nguyen-tu-Phan-tu.png"
+    },
+    {
+      "id": "cd02",
+      "order": 2,
+      "code": "CD02",
+      "title": "Nguyên tố, bảng tuần hoàn",
+      "slug": "Nguyen-to-Bang-tuan-hoan",
+      "category": "basics",
+      "categoryTitle": "Cơ bản",
+      "pdf": null,
+      "image": "special-topic/02.Nguyen-to-Bang-tuan-hoan.png"
+    },
+    {
+      "id": "cd03",
+      "order": 3,
+      "code": "CD03",
+      "title": "Công thức hóa học, hóa trị",
+      "slug": "Cong-thuc-hoa-hoc-Hoa-tri",
+      "category": "basics",
+      "categoryTitle": "Cơ bản",
+      "pdf": null,
+      "image": "special-topic/03.Cong-thuc-hoa-hoc-Hoa-tri.png"
+    },
+    {
+      "id": "cd04",
+      "order": 4,
+      "code": "CD04",
+      "title": "Mol, khối lượng mol, thể tích mol",
+      "slug": "Mol-Khoi-luong-mol-The-tich-mol",
+      "category": "basics",
+      "categoryTitle": "Cơ bản",
+      "pdf": null,
+      "image": "special-topic/04.Mol-Khoi-luong-mol-The-tich-mol.png"
+    },
+    {
+      "id": "cd05",
+      "order": 5,
+      "code": "CD05",
+      "title": "Phản ứng hóa học",
+      "slug": "Phan-ung-hoa-hoc",
+      "category": "reactions",
+      "categoryTitle": "Phản ứng & hợp chất",
+      "pdf": null,
+      "image": "special-topic/05.Phan-ung-hoa-hoc.png"
+    },
+    {
+      "id": "cd06",
+      "order": 6,
+      "code": "CD06",
+      "title": "Phương trình hóa học",
+      "slug": "Phuong-trinh-hoa-hoc",
+      "category": "reactions",
+      "categoryTitle": "Phản ứng & hợp chất",
+      "pdf": null,
+      "image": "special-topic/06.Phuong-trinh-hoa-hoc.png"
+    },
+    {
+      "id": "cd07",
+      "order": 7,
+      "code": "CD07",
+      "title": "Oxi, hiđro, nước",
+      "slug": "Oxi-Hidro-Nuoc",
+      "category": "reactions",
+      "categoryTitle": "Phản ứng & hợp chất",
+      "pdf": null,
+      "image": "special-topic/07.Oxi-Hidro-Nuoc.png"
+    },
+    {
+      "id": "cd08",
+      "order": 8,
+      "code": "CD08",
+      "title": "Axit, bazơ, muối",
+      "slug": "Axit-Bazo-Muoi",
+      "category": "reactions",
+      "categoryTitle": "Phản ứng & hợp chất",
+      "pdf": null,
+      "image": "special-topic/08.Axit-Bazo-Muoi.png"
+    },
+    {
+      "id": "cd09",
+      "order": 9,
+      "code": "CD09",
+      "title": "Kim loại",
+      "slug": "Kim-loai",
+      "category": "materials",
+      "categoryTitle": "Vật chất",
+      "pdf": null,
+      "image": "special-topic/09.Kim-loai.png"
+    },
+    {
+      "id": "cd10",
+      "order": 10,
+      "code": "CD10",
+      "title": "Phi kim",
+      "slug": "Phi-kim",
+      "category": "materials",
+      "categoryTitle": "Vật chất",
+      "pdf": null,
+      "image": "special-topic/10.Phi-kim.png"
+    },
+    {
+      "id": "cd11",
+      "order": 11,
+      "code": "CD11",
+      "title": "Hợp chất vô cơ",
+      "slug": "Hop-chat-vo-co",
+      "category": "materials",
+      "categoryTitle": "Vật chất",
+      "pdf": null,
+      "image": "special-topic/11.Hop-chat-vo-co.png"
+    },
+    {
+      "id": "cd12",
+      "order": 12,
+      "code": "CD12",
+      "title": "Tính toán hóa học",
+      "slug": "Tinh-toan-hoa-hoc",
+      "category": "applied",
+      "categoryTitle": "Vận dụng",
+      "pdf": null,
+      "image": "special-topic/12.Tinh-toan-hoa-hoc.png"
+    },
+    {
+      "id": "cd13",
+      "order": 13,
+      "code": "CD13",
+      "title": "Nhận biết và tách chất",
+      "slug": "Nhan-biet-va-Tach-chat",
+      "category": "applied",
+      "categoryTitle": "Vận dụng",
+      "pdf": null,
+      "image": "special-topic/13.Nhan-biet-va-Tach-chat.png"
+    },
+    {
+      "id": "cd14",
+      "order": 14,
+      "code": "CD14",
+      "title": "Chuỗi chuyển hóa",
+      "slug": "Chuoi-chuyen-hoa",
+      "category": "applied",
+      "categoryTitle": "Vận dụng",
+      "pdf": null,
+      "image": "special-topic/14.Chuoi-chuyen-hoa.png"
+    }
+  ]
+}

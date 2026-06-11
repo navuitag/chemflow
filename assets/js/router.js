@@ -23,6 +23,7 @@ import { renderMemoryPanel } from "../../components/memoryPanel.js";
 import { showModal } from "../../components/modal.js";
 import { renderVisualization, bindVisualizations } from "../../modules/visualization.js";
 import { createPracticeModule } from "../../modules/practiceModes.js";
+import { createSpecialTopicsModule } from "../../modules/specialTopics.js";
 import { completeLesson } from "../../modules/lessonEngine.js";
 import { submitAnswer } from "../../modules/quizEngine.js";
 import { getGamificationSummary } from "../../modules/gamification.js";
@@ -44,6 +45,7 @@ let data = {
 };
 
 let practice;
+let specialTopics;
 let mindMap;
 let mindMapGroupMode = MINDMAP_CONFIG.defaultGroupMode;
 
@@ -65,6 +67,12 @@ export function configureRouter(appData) {
     labelSkill,
     notFound,
     handleAnswer
+  });
+  specialTopics = createSpecialTopicsModule({
+    data,
+    notFound,
+    escapeHtml,
+    subjectLabel: "Hóa học"
   });
   mindMap = createMindMapModule({
     data,
@@ -142,6 +150,16 @@ export function renderRoute() {
   } else if (route === "skills") {
     content = renderSkills(state);
     after = bindSkills;
+  } else if (route === "special-topic") {
+    if (id && (sub === "pdf" || sub === "image")) {
+      content = specialTopics.renderTopicViewer(id, sub);
+      after = () => specialTopics.bindViewer();
+    } else if (id) {
+      content = specialTopics.renderTopicViewer(id, "image");
+      after = () => specialTopics.bindViewer();
+    } else {
+      content = specialTopics.renderCatalog();
+    }
   } else if (route === "review") {
     content = renderErrors(state);
   } else if (route === "profile") {
@@ -248,6 +266,14 @@ function renderHome(state) {
   const weakSkill = getWeakSkills(state)[0];
 
   return `
+    <section class="summer-banner st-home-banner">
+      <div>
+        <span class="tag">Chuyên đề · 14 chủ đề</span>
+        <h2>Tài liệu chuyên đề Hóa — xem sơ đồ trực tiếp</h2>
+        <p>Chất, phản ứng, axit-bazơ, tính toán hóa học… sơ đồ tư duy đầy đủ cho THCS.</p>
+      </div>
+      <a class="btn secondary" href="#/special-topic">Mở thư viện 📚</a>
+    </section>
     <section class="hero-panel">
       <div>
         <span class="eyebrow">Lộ trình hôm nay · ${escapeHtml(state.user.name)} · Lớp ${activeGrade}</span>

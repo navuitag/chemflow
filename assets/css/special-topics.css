@@ -1,0 +1,240 @@
+.summer-banner {
+  background: linear-gradient(90deg, #f0f8ff, #edf8f4);
+  border: 1px solid rgba(32, 163, 107, 0.2);
+  border-radius: 16px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 24px;
+  padding: 20px 24px;
+}
+
+.summer-banner h2 {
+  font-size: 1.15rem;
+  margin: 0 0 6px;
+}
+
+.summer-banner p {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0;
+}
+
+.st-home-banner {
+  margin-bottom: 16px;
+}
+
+.st-hero {
+  margin-bottom: 28px;
+}
+
+.st-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.st-hero-stats span {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 12px;
+}
+
+.st-section {
+  margin-bottom: 32px;
+}
+
+.st-section h2 {
+  margin-bottom: 16px;
+}
+
+.st-topic-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.st-topic-card {
+  display: grid;
+  gap: 8px;
+  min-height: 120px;
+  overflow: hidden;
+  padding: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.st-topic-card--thumb {
+  min-height: 0;
+}
+
+.st-topic-card:hover {
+  border-color: var(--green);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.st-topic-thumb {
+  aspect-ratio: 16 / 10;
+  background: var(--surface-soft);
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.st-topic-card-body {
+  display: grid;
+  gap: 8px;
+  padding: 14px 16px 16px;
+}
+
+.st-topic-code {
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.st-topic-card h3 {
+  font-size: 17px;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.st-topic-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.st-topic-meta span {
+  background: var(--surface-soft);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+}
+
+.st-viewer-head h1 {
+  font-size: clamp(22px, 4vw, 28px);
+  margin: 8px 0 0;
+}
+
+.st-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0 16px;
+}
+
+.st-tab {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 16px;
+}
+
+.st-tab.active {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+
+.st-pdf-wrap {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  min-height: 70vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.st-pdf-wrap::before {
+  color: var(--muted);
+  content: "Đang tải PDF…";
+  inset: 0;
+  position: absolute;
+  display: grid;
+  place-items: center;
+}
+
+.st-pdf-wrap.is-loaded::before {
+  display: none;
+}
+
+.st-pdf-frame {
+  border: 0;
+  display: block;
+  height: 75vh;
+  min-height: 480px;
+  width: 100%;
+}
+
+.st-viewer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.st-viewer-body {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  overflow: auto;
+  padding: 12px;
+}
+
+.st-doc-image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.st-topic-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.st-nav-btn {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 14px;
+}
+
+.st-nav-btn:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+@media (max-width: 720px) {
+  .summer-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .st-pdf-frame {
+    height: 62vh;
+    min-height: 360px;
+  }
+
+  .st-topic-nav {
+    flex-direction: column;
+  }
+}

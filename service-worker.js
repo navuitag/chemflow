@@ -1,4 +1,4 @@
-const CACHE_NAME = "chemflow-vn-v15";
+const CACHE_NAME = "chemflow-vn-v16";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -25,7 +25,9 @@ const APP_SHELL = [
   "./modules/scene3d.js",
   "./modules/practiceContent.js",
   "./modules/practiceModes.js",
+  "./modules/specialTopics.js",
   "./modules/mindMap.js",
+  "./assets/css/special-topics.css",
   "./modules/progress.js",
   "./modules/gamification.js",
   "./components/navbar.js",
@@ -39,7 +41,8 @@ const APP_SHELL = [
   "./data/lessons.json",
   "./data/questions.json",
   "./data/errors.json",
-  "./data/exercises.json"
+  "./data/exercises.json",
+  "./data/special-topics.json"
 ];
 
 self.addEventListener("install", (event) => {
