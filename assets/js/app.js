@@ -1,4 +1,6 @@
 import { loadJson } from "./utils.js";
+import { updateState } from "./state.js";
+import { createStudyTimeTracker } from "./studyTime.js";
 import { configureRouter, renderRoute } from "./router.js";
 
 async function boot() {
@@ -18,6 +20,8 @@ async function boot() {
   } else {
     renderRoute();
   }
+
+  createStudyTimeTracker({ updateState }).bind();
 
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("service-worker.js").catch(() => {});
