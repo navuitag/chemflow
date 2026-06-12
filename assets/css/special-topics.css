@@ -64,7 +64,6 @@
   gap: 8px;
   min-height: 120px;
   overflow: hidden;
-  padding: 0;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -89,7 +88,6 @@
 .st-topic-card-body {
   display: grid;
   gap: 8px;
-  padding: 14px 16px 16px;
 }
 
 .st-topic-code {

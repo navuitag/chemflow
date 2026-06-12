@@ -1,4 +1,4 @@
-const CACHE_NAME = "chemflow-vn-v16";
+const CACHE_NAME = "chemflow-vn-v17";
 const APP_SHELL = [
   "./",
   "./index.html",
