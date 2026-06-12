@@ -29,3 +29,11 @@ Mở trình duyệt: `http://localhost:8080`
 Tạo lại nội dung: `node scripts/generate-grade6-kntt.mjs` · `grade7` · `grade8` · `grade9` (các file `scripts/generate-grade*-kntt.mjs`)
 
 Giao diện dùng cùng bảng màu với [MathFlow](../mathflow) (`#20a36b`, nền `#f7fbff`).
+
+---
+
+## Tác giả
+
+- **Nguyễn Anh Vũ**
+- Email: [navuitag@gmail.com](mailto:navuitag@gmail.com)
+- Điện thoại: [0986201079](tel:+84986201079)
